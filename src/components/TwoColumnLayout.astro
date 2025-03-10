@@ -3,14 +3,22 @@ interface Props {
   title: string;
   linkUrl?: string;
   linkText?: string;
+  subTitle?: string;
 }
 
-const { title, linkUrl, linkText } = Astro.props;
+const { title, linkUrl, linkText, subTitle } = Astro.props;
 ---
 
 <div class="two-column-layout">
   <div class="left-column">
-    <h2 class="title">{title}</h2>
+    <h2 class="title">{title}
+      {
+        subTitle && (
+          <span class="sub-title">{subTitle}</span>
+        )
+      }
+    </h2>
+
     {
       linkUrl && (
         <div class="btn_area">
@@ -60,6 +68,13 @@ const { title, linkUrl, linkText } = Astro.props;
     font-style: normal;
     font-weight: 600;
     line-height: 34px; /* 130.769% */
+  }
+  .sub-title{
+    font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+display: inline-block;
   }
 
   .right-column {

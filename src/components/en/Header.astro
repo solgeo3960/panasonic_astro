@@ -24,10 +24,10 @@ import Megamenu4Sp from "./Megamenu4Sp.astro";
         </a>
       </div>
       <div class="clear-cache">
-        表示の不具合がある場合は「<a
+        Please note: If there are problems with the display, please "<a
           href="/brandmanagement/link/mente/20220901_jp.pdf"
-          target="_blank">一時ファイルのクリア</a
-        >」を行なってください。
+          target="_blank">clear your browsing data</a
+        >".
       </div>
       <div class="logo-panasonic-sub">
         <a href="/">
@@ -45,7 +45,7 @@ import Megamenu4Sp from "./Megamenu4Sp.astro";
   <div class="header-middle">
     <div class="onlypc">
       <div class="header-middle-inner">
-        <div class="site-name">ブランド表示ガイドライン</div>
+        <div class="site-name">Brand Expression Guidelines</div>
         <div class="header-search">
           <form action="/search/index.php" method="post">
             <div class="header-search-input">
@@ -53,7 +53,7 @@ import Megamenu4Sp from "./Megamenu4Sp.astro";
               <input
                 id="searchInput"
                 type="text"
-                placeholder="何をお探しですか？入力してEnter"
+                placeholder="What are you looking for?Please Enter! "
                 name="keyword"
                 autocomplete="off"
               />
@@ -62,22 +62,28 @@ import Megamenu4Sp from "./Megamenu4Sp.astro";
               <img src="/src/assets_2025/images/common/info.svg" alt="情報" />
               <div class="pop-up-dialog">
                 <div class="pop-up-dialog__content">
-                  <strong class="pop-up-dialog__title">検索機能の使い方</strong>
+                  <strong class="pop-up-dialog__title"
+                    >How to Use the Search Function</strong
+                  >
                   <ul>
                     <li>
-                      入力フィールドに探したいキーワードを入力すると、関連のキーワードが表示されますので、タブで選択して、条件を絞り込むことができます。
+                      Enter the keywords you want to search for in the entry
+                      field. Use the tab to narrow down the search results.
                     </li>
                     <li>
-                      カテゴリ検索、さらに絞り込み検索、指定のキーワードを含めない検索については、検索結果画面から可能です。
+                      It is possible to specify a category, refine your search,
+                      or exclude specified keywords in the search results
+                      window.
                     </li>
                     <li>
-                      お探しのキーワードをサポートする機能はページタイトルを表示しています。
+                      The titles of pages that contain the keywords you are
+                      searching for are displayed.
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <input type="hidden" name="lang" value="ja" />
+            <input type="hidden" name="lang" value="en" />
             <div id="suggest">
               <span> </span>
             </div>
@@ -85,13 +91,16 @@ import Megamenu4Sp from "./Megamenu4Sp.astro";
         </div>
         <div class="sub_navis">
           <div class="sub_navi">
-            <a href="/guidelines/gl_ab_scope.html" class="sub_navi-link">
-              <span>よくあるご質問</span>
+            <a href="/en/guidelines/gl_ab_scope_en.html" class="sub_navi-link">
+              <span>FAQ</span>
             </a>
           </div>
           <div class="sub_navi">
-            <a href="/guidelines/gl_ab_positioning.html" class="sub_navi-link">
-              <span>ブランド相談・承認窓口</span>
+            <a
+              href="/en/guidelines/gl_ab_positioning_en.html"
+              class="sub_navi-link"
+            >
+              <span>Brand Inquiry & Approval</span>
             </a>
           </div>
           <div class="sub_navi">
@@ -101,10 +110,10 @@ import Megamenu4Sp from "./Megamenu4Sp.astro";
                   <span
                     ><img
                       src="/src/assets_2025/images/common/arrow.svg"
-                      alt="English"
+                      alt="Japanese"
                       width="12"
                       height="12"
-                    />English</span
+                    />Japanese</span
                   >
                 </a>
               </li>
@@ -133,7 +142,7 @@ import Megamenu4Sp from "./Megamenu4Sp.astro";
           <span></span>
           <span></span>
         </div>
-        <div class="site-name">ブランド表示ガイドライン</div>
+        <div class="site-name">Brand Expression Guidelines</div>
         <div class="header-search-icon">
           <img src="/src/assets_2025/images/common/search.svg" alt="検索" />
         </div>
@@ -145,7 +154,7 @@ import Megamenu4Sp from "./Megamenu4Sp.astro";
       <div class="container">
         <div class="sptab">
           <div class="sptab-title">
-            <h2>ブランド表示ガイドライン</h2>
+            <h2>Brand Expression Guidelines</h2>
             <div class="close_btn js-close_btn">
               <img
                 src="/src/assets_2025/images/common/spClose.svg"
@@ -159,27 +168,29 @@ import Megamenu4Sp from "./Megamenu4Sp.astro";
             <li class="onlypc"><a href="/" class="main-nav-link">HOME</a></li>
             <li class="mega-menu-trigger" data-mega-menu-id="mega-menu-01">
               <a href="#" class="main-nav-link"
-                >ブランド表示ガイドライン・ロゴ
+                >Brand Expression Guidelines / Logos
               </a>
               <div class="sptab">
                 <Megamenu1Sp />
               </div>
             </li>
             <li class="mega-menu-trigger" data-mega-menu-id="mega-menu-02">
-              <a href="#" class="main-nav-link"> 全社規程・決裁</a>
+              <a href="#" class="main-nav-link">
+                Corporate Rules & Standards / Approval Procedure</a
+              >
 
               <div class="sptab">
                 <Megamenu2Sp />
               </div>
             </li>
             <li class="mega-menu-trigger" data-mega-menu-id="mega-menu-03">
-              <a href="#" class="main-nav-link">FAQ・e-ラーニング</a>
+              <a href="#" class="main-nav-link">FAQ / E-learning</a>
               <div class="sptab">
                 <Megamenu3Sp />
               </div>
             </li>
             <li class="mega-menu-trigger" data-mega-menu-id="mega-menu-04">
-              <a href="#" class="main-nav-link">その他関連情報</a>
+              <a href="#" class="main-nav-link">Other Related Information</a>
               <div class="sptab">
                 <Megamenu4Sp />
               </div>
@@ -188,11 +199,11 @@ import Megamenu4Sp from "./Megamenu4Sp.astro";
           <div class="sp">
             <div class="sp-nav_linkboxs">
               <div class="sp-nav_linkbox">
-                <a href="/guidelines/gl_ab_scope.html">よくあるご質問</a>
+                <a href="/guidelines/gl_ab_scope.html">FAQ</a>
               </div>
               <div class="sp-nav_linkbox">
                 <a href="/guidelines/gl_ab_positioning.html"
-                  >ブランド相談・承認窓口</a
+                  >Brand Inquiry & Approval</a
                 >
               </div>
             </div>

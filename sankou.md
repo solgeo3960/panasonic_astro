@@ -1,262 +1,159 @@
-
-<!-- ===== nav4
-=========================================================================== 日本語ほかのカテゴリからみたときに表示-->
-<ul class="nav4 id1-1-1-4"><!--
-	 --><li><a href="/guidelines/gl_ab_inportance.html" class="id1-1-1-4-1">ブランドとは</a></li><!--
-	 --><li><a href="/guidelines/gl_ab_personality.html" class="id1-1-1-4-2">ブランドパーソナリティ</a></li><!--
-	 --><li><a href="/guidelines/gl_ab_origin.html" class="id1-1-1-4-3">Panasonicの由来</a></li><!--
-	 --><li><a href="/guidelines/gl_ab_briefhistory.html" class="id1-1-1-4-4">ブランド略史</a></li><!--
-	 --><li class="link"><a href="javascript:void(0);">一覧で見る</a></li>
-</ul>
-<ul class="nav4 id1-1-3-2"><!--
-	 --><li><a href="/guidelines/gl_be_pl_plogo.html" class="id1-1-3-2-1">一覧</a></li><!--
-	 --><li><a href="/guidelines/gl_be_pl_standardlogo.html" class="id1-1-3-2-2">基本形ロゴ</a></li><!--
-	 --><li><a href="/guidelines/gl_be_pl_rtrademark.html" class="id1-1-3-2-3">登録商標表示&reg;付きロゴ</a></li><!--
-	 --><li><a href="/guidelines/gl_be_pl_spe_proportion.html" class="id1-1-3-2-4">特殊タイプロゴ</a></li><!--
-	 --><li><a href="/guidelines/gl_be_pl_clearspace.html" class="id1-1-3-2-5">プロテクトエリア</a></li><!--
-	 --><li><a href="/guidelines/gl_be_pl_panablue.html" class="id1-1-3-2-6">Panasonicブルー</a></li><!--
-	 --><li><a href="/guidelines/gl_be_pl_colorpriority.html" class="id1-1-3-2-7">表示色と優先順位</a></li><!--
-	 --><li><a href="/guidelines/gl_be_pl_backcolor.html" class="id1-1-3-2-8">背景色について</a></li><br><!--
-	 --><li><a href="/guidelines/gl_be_pl_colcombi.html" class="id1-1-3-2-9">誤った配色の事例</a></li><!--
-	 --><li><a href="/guidelines/gl_be_pl_backphoto.html" class="id1-1-3-2-10">背景に写真を使用する場合</a></li><!--
-	 --><li><a href="/guidelines/gl_be_pl_corincor.html" class="id1-1-3-2-11">Panasonicロゴ表示例（正・誤）</a></li><!--
-	 --><li><a href="/guidelines/gl_be_cl_bodytext_corincor.html" class="id1-1-3-2-12">文中表記（正・誤）</a></li><!--
-	 --><li><a href="/guidelines/gl_be_pl_exdispvideo.html" class="id1-1-3-2-13">映像における誤った使用事例</a></li><!--
-	 --><li><a href="/guidelines/gl_be_pl_edgecolor.html" class="id1-1-3-2-14">ロゴ文字端面色</a></li><!--
-	 --><li class="link"><a href="javascript:void(0);">一覧で見る</a></li>
-</ul>
-<ul class="nav4 id1-1-3-6"><!-- 
-	 --><li><a href="/guidelines/gl_be_pg_pgrouplogo.html" class="id1-1-3-6-1">Panasonic Groupロゴ</a></li><!-- 
-	 --><li class="link"><a href="javascript:void(0);">一覧で見る</a></li>
-</ul>
-<ul class="nav4 id1-1-3-3"><!--
-	 --><li><a href="/guidelines/gl_be_businessbrands.html" class="id1-1-3-3-1">事業会社ブランドについて</a></li><!--
-	 --><li class="link"><a href="javascript:void(0);">一覧で見る</a></li>
-</ul>
-<ul class="nav4 id1-1-3-7"><!-- 
-	 --><li><a href="/guidelines/gl_be_ig_pendorsed_indica.html" class="id1-1-3-7-1">パナソニック保証表示</a></li><!-- 
-	 --><li class="link"><a href="javascript:void(0);">一覧で見る</a></li>
-</ul>
-<ul class="nav4 id1-1-3-4"><!--
-	 --><li><a href="/guidelines/gl_be_pf_pudfont.html" class="id1-1-3-4-1">PUDフォントとは</a></li><!--
-	 --><li><a href="/guidelines/gl_be_pf_chinesefont.html" class="id1-1-3-4-2">中文規程簡体字フォント</a></li><!-- 
-	 --><li class="link"><a href="javascript:void(0);">一覧で見る</a></li>
-</ul>
-<ul class="nav4 id1-1-3-5"><!--
-	 --><li><a href="/guidelines/gl_be_cl_comlogo.html" class="id1-1-3-5-1">社名ロゴ</a></li><!--
-	 --><li><a href="/guidelines/gl_be_cl_grouplogo.html" class="id1-1-3-5-2">企業グループ名ロゴ</a></li><!--
-	 --><li><a href="/guidelines/gl_be_cl_E_divaffcomlogo.html" class="id1-1-3-5-4">社名ロゴ：英語</a></li><!--<br>
-	 --><li><a href="/guidelines/gl_be_cl_Z_divaffcomlogo.html" class="id1-1-3-5-5">社名ロゴ：中国語</a></li><!--
-	 --><li><a href="/guidelines/gl_be_cl_J_divaffcomlogo.html" class="id1-1-3-5-6">社名ロゴ：日本語</a></li><!--
-	 --><li><a href="/guidelines/gl_be_cl_group_corincor.html" class="id1-1-3-5-7">社名・企業グループ表示例（正・誤）</a></li><!--
-	 --><li class="link"><a href="javascript:void(0);">一覧で見る</a></li>
-</ul>
-<ul class="nav4 id1-1-4-1"><!--
-	 --><li><a href="/guidelines/gl_ap_cg_comgroup.html" class="id1-1-4-1-1">一覧</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_cg_badges.html" class="id1-1-4-1-2">社員記章</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_cg_flags.html" class="id1-1-4-1-3">社旗</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_cg_buildings.html" class="id1-1-4-1-4">建物</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_cg_envelopes.html" class="id1-1-4-1-5">封筒</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_cg_letterheads.html" class="id1-1-4-1-6">レターヘッド</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_cg_businesscards.html" class="id1-1-4-1-7">名刺</a></li><br><!--
-	 --><li><a href="/guidelines/gl_ap_cg_nametags.html" class="id1-1-4-1-8">名札・IDカード</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_cg_com_vehicles.html" class="id1-1-4-1-9">社用車</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_cg_entranssign.html" class="id1-1-4-1-10">入口表示</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_cg_receptiondesk.html" class="id1-1-4-1-11">受付</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_cg_publications.html" class="id1-1-4-1-12">コーポレート刊行物</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_cg_powerpoint.html" class="id1-1-4-1-13">パワーポイント</a></li><!--
-	 --><li class="link"><a href="javascript:void(0);">一覧で見る</a></li>
-</ul>
-<ul class="nav4 id1-1-4-2"><!--
-	 --><li><a href="/guidelines/gl_ap_ps_goodsservices.html" class="id1-1-4-2-1">一覧</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_ps_products.html" class="id1-1-4-2-2">製品</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_ps_devices.html" class="id1-1-4-2-3">デバイス</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_ps_nameplate.html" class="id1-1-4-2-4">製品銘板</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_ps_warranties.html" class="id1-1-4-2-5">保証書</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_ps_packaging.html" class="id1-1-4-2-6">包装箱</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_ps_opemanuals.html" class="id1-1-4-2-7">取扱説明書・施工説明書</a></li><!--
-	 --><li class="link"><a href="javascript:void(0);">一覧で見る</a></li>
-</ul>
-<ul class="nav4 id1-1-4-3"><!--
-	 --><li><a href="/guidelines/gl_ap_as_adsales_promo.html" class="id1-1-4-3-1">一覧</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_as_catalogs.html" class="id1-1-4-3-2">カタログ</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_as_newsp_maga.html" class="id1-1-4-3-3">新聞・雑誌広告</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_as_tvcm.html" class="id1-1-4-3-4">TVCMなどの映像</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_as_pop.html" class="id1-1-4-3-5">店頭POP</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_as_ooh_media.html" class="id1-1-4-3-6">屋外広告</a></li><br><!--
-	 --><li><a href="/guidelines/gl_ap_as_trans_ads.html" class="id1-1-4-3-7">交通広告</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_as_fair_exhibition.html" class="id1-1-4-3-8">展示会ブース</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_as_showroom.html" class="id1-1-4-3-9">ショウルーム</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_as_sales_vehicles.html" class="id1-1-4-3-10">営業車両</a></li><!--
-	 --><li class="link"><a href="javascript:void(0);">一覧で見る</a></li>
-</ul>
-<ul class="nav4 id1-1-4-4"><!--
-	 --><li><a href="/guidelines/gl_ap_di_digital.html" class="id1-1-4-4-1">デジタルメディアでの表示について</a></li><!--
-	 --><li class="link"><a href="javascript:void(0);">一覧で見る</a></li>
-</ul>
-<ul class="nav4 id1-1-4-5"><!--
-	 --><li><a href="/guidelines/gl_ap_os_branduse_outside.html" class="id1-1-4-5-1">グループ外のブランド使用とは</a></li><!--
-	 --><li><a href="/guidelines/gl_ap_os_branddisp_shop.html" class="id1-1-4-5-2">専門店におけるブランド表示</a></li><!--
-	 --><li class="link"><a href="javascript:void(0);">一覧で見る</a></li>
-</ul>
-
-					</nav>
-
-					<div id="contNav3">
-						<div class="close"><a href="javascript:void(0);">元に戻る</a></div>
-
-						<nav class="group-id1">
-<div class="tit1"><span class="id1-1">ブランド表示ガイドライン</span></div>
+<div id="contNav3" style="display: block;">
+<div class="close"><a href="javascript:void(0);">返回</a></div>
+<nav class="group-id1">
+<div class="tit1"><span class="id1-1">品牌表示指南</span></div>
 <div class="menuTable">
 	<div class="col1">
-		<div class="tit2"><span class="id1-1-1">ブランド表示ガイドラインについて</span></div>
+		<div class="tit2"><span class="id1-1-1">关于品牌表示指南</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_ab_scope.html" class="id1-1-1-1">適用範囲</a></li>
-			<li><a href="/guidelines/gl_ab_positioning.html" class="id1-1-1-2">ブランド表示ガイドラインの位置づけ</a></li>
-			<li><a href="/guidelines/gl_ab_howtouse.html" class="id1-1-1-3">ブランド表示ガイドラインの読み方</a></li>
-			<li><a href="/guidelines/gl_ab_groupbrand.html" class="id1-1-1-5">パナソニックグループのブランド</a></li>
+			<li><a href="/zh/guidelines/gl_ab_scope_zh.html" class="id1-1-1-1">适用范围</a></li>
+			<li><a href="/zh/guidelines/gl_ab_positioning_zh.html" class="id1-1-1-2">品牌表示指南的定位</a></li>
+			<li><a href="/zh/guidelines/gl_ab_howtouse_zh.html" class="id1-1-1-3">品牌表示指南的读法</a></li>
+			<li><a href="/zh/guidelines/gl_ab_groupbrand_zh.html" class="id1-1-1-5">Panasonic集团的品牌</a></li>
 		</ul>
-		<div class="tit3"><span class="id1-1-1-4">ブランドの大切さ</span></div>
+		<div class="tit3"><span class="id1-1-1-4">品牌的重要性</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_ab_inportance.html" class="id1-1-1-4-1">ブランドとは</a></li>
-			<li><a href="/guidelines/gl_ab_personality.html" class="id1-1-1-4-2">ブランドパーソナリティ</a></li>
-			<li><a href="/guidelines/gl_ab_origin.html" class="id1-1-1-4-3">Panasonicの由来</a></li>
-			<li><a href="/guidelines/gl_ab_briefhistory.html" class="id1-1-1-4-4">ブランド略史</a></li>
+			<li><a href="/zh/guidelines/gl_ab_inportance_zh.html" class="id1-1-1-4-1">所谓品牌</a></li>
+			<li><a href="/zh/guidelines/gl_ab_personality_zh.html" class="id1-1-1-4-2">品牌个性</a></li>
+			<li><a href="/zh/guidelines/gl_ab_origin_zh.html" class="id1-1-1-4-3">Panasonic的由来</a></li>
+			<li><a href="/zh/guidelines/gl_ab_briefhistory_zh.html" class="id1-1-1-4-4">品牌略史</a></li>
 		</ul>
 	</div>
 	<div class="col2">
-		<div class="tit2"><span class="id1-1-2">ブランド表示の基本原則</span></div>
+		<div class="tit2"><span class="id1-1-2">品牌标注的基本原则</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_bp_basic_principles.html" class="id1-1-2-1">ブランド表示の基本原則とは</a></li>
-			<li><a href="/guidelines/gl_bp_concept_disp.html" class="id1-1-2-2">表示の考え方</a></li>
+			<li><a href="/zh/guidelines/gl_bp_basic_principles_zh.html" class="id1-1-2-1">所谓品牌标注的基本原则</a></li>
+			<li><a href="/zh/guidelines/gl_bp_concept_disp_zh.html" class="id1-1-2-2">标注的思路</a></li>
 		</ul>
 	</div>
 	<div class="col3"></div>
 </div>
 
-<div class="tit2"><span class="id1-1-3">基本要素のルール</span></div>
+<div class="tit2"><span class="id1-1-3">基本要素的规则</span></div>
 <ul>
-	<li><a href="/guidelines/gl_be_basicelements.html" class="id1-1-3-1">一覧</a></li>
+	<li><a href="/zh/guidelines/gl_be_basicelements_zh.html" class="id1-1-3-1"><!--基本要素的规则-->一览</a></li>
 </ul>
 <div class="menuTable">
 	<div class="col1">
-		<div class="tit3"><span class="id1-1-3-2">Panasonicロゴ</span></div>
+		<div class="tit3"><span class="id1-1-3-2">Panasonic标识</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_be_pl_plogo.html" class="id1-1-3-2-1">一覧</a></li>
-			<li><a href="/guidelines/gl_be_pl_standardlogo.html" class="id1-1-3-2-2">基本形ロゴ</a></li>
-			<li><a href="/guidelines/gl_be_pl_rtrademark.html" class="id1-1-3-2-3">登録商標表示&reg;付きロゴ</a></li>
-			<li><a href="/guidelines/gl_be_pl_spe_proportion.html" class="id1-1-3-2-4">特殊タイプロゴ</a></li>
-			<li><a href="/guidelines/gl_be_pl_clearspace.html" class="id1-1-3-2-5">プロテクトエリア</a></li>
-			<li><a href="/guidelines/gl_be_pl_panablue.html" class="id1-1-3-2-6">Panasonicブルー</a></li>
-			<li><a href="/guidelines/gl_be_pl_colorpriority.html" class="id1-1-3-2-7">Panasonicロゴの表示色と優先順位</a></li>
-			<li><a href="/guidelines/gl_be_pl_backcolor.html" class="id1-1-3-2-8">背景色について</a></li>
-			<li><a href="/guidelines/gl_be_pl_colcombi.html" class="id1-1-3-2-9">誤った配色の事例</a></li>
-			<li><a href="/guidelines/gl_be_pl_backphoto.html" class="id1-1-3-2-10">背景に写真を使用する場合</a></li>
-			<li><a href="/guidelines/gl_be_pl_corincor.html" class="id1-1-3-2-11">Panasonicロゴ表示例（正・誤）</a></li>
-			<li><a href="/guidelines/gl_be_cl_bodytext_corincor.html" class="id1-1-3-2-12">文中表記（正・誤）</a></li>
-			<li><a href="/guidelines/gl_be_pl_exdispvideo.html" class="id1-1-3-2-13">映像における誤った使用事例</a></li>
-			<li><a href="/guidelines/gl_be_pl_edgecolor.html" class="id1-1-3-2-14">ロゴ文字端面色</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_plogo_zh.html" class="id1-1-3-2-1"><!--Panasonic标识-->一览</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_standardlogo_zh.html" class="id1-1-3-2-2">基本型标识</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_rtrademark_zh.html" class="id1-1-3-2-3">带注册商标®的标识</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_spe_proportion_zh.html" class="id1-1-3-2-4">特殊规格标识</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_clearspace_zh.html" class="id1-1-3-2-5">保护区</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_panablue_zh.html" class="id1-1-3-2-6">Panasonic蓝</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_colorpriority_zh.html" class="id1-1-3-2-7">标注色和优先顺序</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_backcolor_zh.html" class="id1-1-3-2-8">关于背景色</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_colcombi_zh.html" class="id1-1-3-2-9">错误配色事例</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_backphoto_zh.html" class="id1-1-3-2-10">背景使用照片时</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_corincor_zh.html" class="id1-1-3-2-11">Panasonic标识的标注事例（正、误）</a></li>
+			<li><a href="/zh/guidelines/gl_be_cl_bodytext_corincor_zh.html" class="id1-1-3-2-12">文中表述（正、误）</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_exdispvideo_zh.html" class="id1-1-3-2-13">在影像中的错误使用事例</a></li>
+			<li><a href="/zh/guidelines/gl_be_pl_edgecolor_zh.html" class="id1-1-3-2-14">标识文字端面颜色</a></li>
 		</ul>
 	</div>
 	<div class="col2">
-		<div class="tit3"><span class="id1-1-3-6">Panasonic Groupロゴ</span></div>
+		<div class="tit3"><span class="id1-1-3-6">Panasonic Group标识</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_be_pg_pgrouplogo.html" class="id1-1-3-6-1">Panasonic Groupロゴ</a></li>
+			<li><a href="/zh/guidelines/gl_be_pg_pgrouplogo_zh.html" class="id1-1-3-6-1">Panasonic Group标识</a></li>
 		</ul>
-		<div class="tit3"><span class="id1-1-3-3">事業会社ブランド</span></div>
+		<div class="tit3"><span class="id1-1-3-3">事业公司品牌</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_be_businessbrands.html" class="id1-1-3-3-1">事業会社ブランドについて</a></li>
+			<li><a href="/zh/guidelines/gl_be_businessbrands_zh.html" class="id1-1-3-3-1">关于事业公司品牌</a></li>
 		</ul>
-		<div class="tit3"><span class="id1-1-3-7">パナソニック保証表示</span></div>
+		<div class="tit3"><span class="id1-1-3-7">Panasonic保证标注</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_be_ig_pendorsed_indica.html" class="id1-1-3-7-1">パナソニック保証表示</a></li>
+			<li><a href="/zh/guidelines/gl_be_ig_pendorsed_indica_zh.html" class="id1-1-3-7-1">Panasonic保证标注</a></li>
 		</ul>
-		<div class="tit3"><span class="id1-1-3-4">PUDフォント</span></div>
+		<div class="tit3"><span class="id1-1-3-4">PUD字体</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_be_pf_pudfont.html" class="id1-1-3-4-1">PUDフォントとは</a></li>
-			<li><a href="/guidelines/gl_be_pf_chinesefont.html" class="id1-1-3-4-2">中文規程簡体字フォント</a></li>
+			<li><a href="/zh/guidelines/gl_be_pf_pudfont_zh.html" class="id1-1-3-4-1">所谓PUD字体</a></li>
+			<li><a href="/zh/guidelines/gl_be_pf_chinesefont_zh.html" class="id1-1-3-4-2">中文规定简体字字体</a></li>
 		</ul>
 	</div>
 	<div class="col3">
-		<div class="tit3"><span class="id1-1-3-5">社名・グループ表記</span></div>
+		<div class="tit3"><span class="id1-1-3-5">公司、集团名称记载</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_be_cl_comlogo.html" class="id1-1-3-5-1">社名ロゴ</a></li>
-			<li><a href="/guidelines/gl_be_cl_grouplogo.html" class="id1-1-3-5-2">企業グループ名ロゴ</a></li>
-			<li><a href="/guidelines/gl_be_cl_E_divaffcomlogo.html" class="id1-1-3-5-4">社名ロゴ：英語</a></li>
-			<li><a href="/guidelines/gl_be_cl_Z_divaffcomlogo.html" class="id1-1-3-5-5">社名ロゴ：中国語</a></li>
-			<li><a href="/guidelines/gl_be_cl_J_divaffcomlogo.html" class="id1-1-3-5-6">社名ロゴ：日本語</a></li>
-			<li><a href="/guidelines/gl_be_cl_group_corincor.html" class="id1-1-3-5-7">社名・企業グループ表示例（正・誤）</a></li>
+			<li><a href="/zh/guidelines/gl_be_cl_comlogo_zh.html" class="id1-1-3-5-1">公司名称标识</a></li>
+			<li><a href="/zh/guidelines/gl_be_cl_grouplogo_zh.html" class="id1-1-3-5-2">企业集团名称标识</a></li>
+			<li><a href="/zh/guidelines/gl_be_cl_E_divaffcomlogo_zh.html" class="id1-1-3-5-4">公司名称标识：英文</a></li>
+			<li><a href="/zh/guidelines/gl_be_cl_Z_divaffcomlogo_zh.html" class="id1-1-3-5-5">公司名称标识：中文</a></li>
+	 		<li><a href="/zh/guidelines/gl_be_cl_J_divaffcomlogo_zh.html" class="id1-1-3-5-6">公司名称标识：日语</a></li>
+			<li><a href="/zh/guidelines/gl_be_cl_group_corincor_zh.html" class="id1-1-3-5-7">公司名称和企业集团标注事例（正、误）</a></li>
 		</ul>
 	</div>
 </div>
 
-
-<div class="tit2"><span class="id1-1-4">アプリケーションのルール</span></div>
+<div class="tit2"><span class="id1-1-4">应用软件的规则</span></div>
 <div class="menuTable">
 	<div class="col1">
-		<div class="tit3"><span class="id1-1-4-1">企業グループの表示</span></div>
+		<div class="tit3"><span class="id1-1-4-1">企业集团的表示</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_ap_cg_comgroup.html" class="id1-1-4-1-1">一覧</a></li>
-			<li><a href="/guidelines/gl_ap_cg_badges.html" class="id1-1-4-1-2">社員記章</a></li>
-			<li><a href="/guidelines/gl_ap_cg_flags.html" class="id1-1-4-1-3">社旗</a></li>
-			<li><a href="/guidelines/gl_ap_cg_buildings.html" class="id1-1-4-1-4">建物</a></li>
-			<li><a href="/guidelines/gl_ap_cg_envelopes.html" class="id1-1-4-1-5">封筒</a></li>
-			<li><a href="/guidelines/gl_ap_cg_letterheads.html" class="id1-1-4-1-6">レターヘッド</a></li>
-			<li><a href="/guidelines/gl_ap_cg_businesscards.html" class="id1-1-4-1-7">名刺</a></li>
-			<li><a href="/guidelines/gl_ap_cg_nametags.html" class="id1-1-4-1-8">名札・IDカード</a></li>
-			<li><a href="/guidelines/gl_ap_cg_com_vehicles.html" class="id1-1-4-1-9">社用車</a></li>
-			<li><a href="/guidelines/gl_ap_cg_entranssign.html" class="id1-1-4-1-10">入口表示</a></li>
-			<li><a href="/guidelines/gl_ap_cg_receptiondesk.html" class="id1-1-4-1-11">受付</a></li>
-			<li><a href="/guidelines/gl_ap_cg_publications.html" class="id1-1-4-1-12">コーポレート刊行物</a></li>
-			<li><a href="/guidelines/gl_ap_cg_powerpoint.html" class="id1-1-4-1-13">パワーポイント</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_comgroup_zh.html" class="id1-1-4-1-1"><!--企业集团的表示-->一览</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_badges_zh.html" class="id1-1-4-1-2">员工徽章</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_flags_zh.html" class="id1-1-4-1-3">公司旗</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_buildings_zh.html" class="id1-1-4-1-4">建筑物</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_envelopes_zh.html" class="id1-1-4-1-5">信封</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_letterheads_zh.html" class="id1-1-4-1-6">信笺抬头</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_businesscards_zh.html" class="id1-1-4-1-7">名片</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_nametags_zh.html" class="id1-1-4-1-8">胸牌、ID卡</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_com_vehicles_zh.html" class="id1-1-4-1-9">公司业务车</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_entranssign_zh.html" class="id1-1-4-1-10">入口标注</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_receptiondesk_zh.html" class="id1-1-4-1-11">接待处</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_publications_zh.html" class="id1-1-4-1-12">公司刊物</a></li>
+			<li><a href="/zh/guidelines/gl_ap_cg_powerpoint_zh.html" class="id1-1-4-1-13">PowerPoint</a></li>
 		</ul>
 	</div>
 	<div class="col2">
-		<div class="tit3"><span class="id1-1-4-2">商品・サービスでの表示</span></div>
+		<div class="tit3"><span class="id1-1-4-2">商品、服务相关表示</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_ap_ps_goodsservices.html" class="id1-1-4-2-1">一覧</a></li>
-			<li><a href="/guidelines/gl_ap_ps_products.html" class="id1-1-4-2-2">製品</a></li>
-			<li><a href="/guidelines/gl_ap_ps_devices.html" class="id1-1-4-2-3">デバイス</a></li>
-			<li><a href="/guidelines/gl_ap_ps_nameplate.html" class="id1-1-4-2-4">製品銘板</a></li>
-			<li><a href="/guidelines/gl_ap_ps_warranties.html" class="id1-1-4-2-5">保証書</a></li>
-			<li><a href="/guidelines/gl_ap_ps_packaging.html" class="id1-1-4-2-6">包装箱</a></li>
-			<li><a href="/guidelines/gl_ap_ps_opemanuals.html" class="id1-1-4-2-7">取扱説明書・施工説明書</a></li>
+			<li><a href="/zh/guidelines/gl_ap_ps_goodsservices_zh.html" class="id1-1-4-2-1"><!--商品、服务相关表示-->一览</a></li>
+			<li><a href="/zh/guidelines/gl_ap_ps_products_zh.html" class="id1-1-4-2-2">产品</a></li>
+			<li><a href="/zh/guidelines/gl_ap_ps_devices_zh.html" class="id1-1-4-2-3">元器件</a></li>
+			<li><a href="/zh/guidelines/gl_ap_ps_nameplate_zh.html" class="id1-1-4-2-4">产品名牌</a></li>
+			<li><a href="/zh/guidelines/gl_ap_ps_warranties_zh.html" class="id1-1-4-2-5">保证书</a></li>
+			<li><a href="/zh/guidelines/gl_ap_ps_packaging_zh.html" class="id1-1-4-2-6">包装箱</a></li>
+			<li><a href="/zh/guidelines/gl_ap_ps_opemanuals_zh.html" class="id1-1-4-2-7">使用说明书和施工说明书</a></li>
 		</ul>
-		<div class="tit3"><span class="id1-1-4-3">宣伝・販促での表示</span></div>
+		<div class="tit3"><span class="id1-1-4-3">宣传、促销相关表示</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_ap_as_adsales_promo.html" class="id1-1-4-3-1">一覧</a></li>
-			<li><a href="/guidelines/gl_ap_as_catalogs.html" class="id1-1-4-3-2">カタログ</a></li>
-			<li><a href="/guidelines/gl_ap_as_newsp_maga.html" class="id1-1-4-3-3">新聞・雑誌広告</a></li>
-			<li><a href="/guidelines/gl_ap_as_tvcm.html" class="id1-1-4-3-4">TVCMなどの映像</a></li>
-			<li><a href="/guidelines/gl_ap_as_pop.html" class="id1-1-4-3-5">店頭POP</a></li>
-			<li><a href="/guidelines/gl_ap_as_ooh_media.html" class="id1-1-4-3-6">屋外広告</a></li>
-			<li><a href="/guidelines/gl_ap_as_trans_ads.html" class="id1-1-4-3-7">交通広告</a></li>
-			<li><a href="/guidelines/gl_ap_as_fair_exhibition.html" class="id1-1-4-3-8">展示会ブース</a></li>
-			<li><a href="/guidelines/gl_ap_as_showroom.html" class="id1-1-4-3-9">ショウルーム</a></li>
-			<li><a href="/guidelines/gl_ap_as_sales_vehicles.html" class="id1-1-4-3-10">営業車両</a></li>
+			<li><a href="/zh/guidelines/gl_ap_as_adsales_promo_zh.html" class="id1-1-4-3-1"><!--宣传、促销相关表示-->一览</a></li>
+			<li><a href="/zh/guidelines/gl_ap_as_catalogs_zh.html" class="id1-1-4-3-2">商品目录</a></li>
+			<li><a href="/zh/guidelines/gl_ap_as_newsp_maga_zh.html" class="id1-1-4-3-3">报纸和杂志广告</a></li>
+			<li><a href="/zh/guidelines/gl_ap_as_tvcm_zh.html" class="id1-1-4-3-4">电视广告等的影像</a></li>
+			<li><a href="/zh/guidelines/gl_ap_as_pop_zh.html" class="id1-1-4-3-5">店铺POP广告牌</a></li>
+			<li><a href="/zh/guidelines/gl_ap_as_ooh_media_zh.html" class="id1-1-4-3-6">户外广告</a></li>
+			<li><a href="/zh/guidelines/gl_ap_as_trans_ads_zh.html" class="id1-1-4-3-7">交通广告</a></li>
+			<li><a href="/zh/guidelines/gl_ap_as_fair_exhibition_zh.html" class="id1-1-4-3-8">展览会展位</a></li>
+			<li><a href="/zh/guidelines/gl_ap_as_showroom_zh.html" class="id1-1-4-3-9">展厅</a></li>
+			<li><a href="/zh/guidelines/gl_ap_as_sales_vehicles_zh.html" class="id1-1-4-3-10">营业车辆</a></li>
 		</ul>
 	</div>
 	<div class="col3">
-		<div class="tit3"><span class="id1-1-4-4">デジタルメディアでの表示</span></div>
+		<div class="tit3"><span class="id1-1-4-4">在数字媒体中的显示</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_ap_di_digital.html" class="id1-1-4-4-1">デジタルメディアでの表示について</a></li>
+			<li><a href="/zh/guidelines/gl_ap_di_digital_zh.html" class="id1-1-4-4-1">关于在数字媒体中的显示</a></li>
 		</ul>
-		<div class="tit3"><span class="id1-1-4-5">グループ外のブランド使用</span></div>
+		<div class="tit3"><span class="id1-1-4-5">集团外的品牌使用</span></div>
 		<ul>
-			<li><a href="/guidelines/gl_ap_os_branduse_outside.html" class="id1-1-4-5-1">グループ外のブランド使用とは</a></li>
-			<li><a href="/guidelines/gl_ap_os_branddisp_shop.html" class="id1-1-4-5-2">専門店におけるブランド表示</a></li>
+			<li><a href="/zh/guidelines/gl_ap_os_branduse_outside_zh.html" class="id1-1-4-5-1">所谓集团外的品牌使用</a></li>
+			<li><a href="/zh/guidelines/gl_ap_os_branddisp_shop_zh.html" class="id1-1-4-5-2">专卖店的品牌标注</a></li>
 		</ul>
 	</div>
 </div>
 
-<div class="tit1"><span class="id1-2">その他の表示ルール</span></div>
+<div class="tit1"><span class="id1-2">其他标注规则</span></div>
 <ul>
-	<li><a href="/guidelines/gl_otherrules.html" class="id1-2-1">一覧</a></li>
+	<li><a href="/zh/guidelines/gl_otherrules_zh.html" class="id1-2-1"><!--其他标注规则-->一览</a></li>
 </ul>
 
-<div class="tit1"><span class="id1-3">ロゴ/ダウンロード</span></div>
+<div class="tit1"><span class="id1-3">标识 / 下载</span></div>
 <ul class="last">
-	<li><a href="/guidelines/gl_ld_logo_download.html" class="id1-3-1">一覧</a></li>
-	<li><a href="/guidelines/gl_ld_Affil_com_logo.html" class="id1-3-2">社名ロゴデータ</a></li>
-	<li><a href="/guidelines/gl_ld_logomanual_external.html" class="id1-3-3">社外用ロゴマニュアル</a></li>
+	<li><a href="/zh/guidelines/gl_ld_logo_download_zh.html" class="id1-3-1"><!--标识 / 下载-->一览</a></li>
+	<li><a href="/zh/guidelines/gl_ld_Affil_com_logo_zh.html" class="id1-3-2">公司名称标识数据</a></li>
+	<li><a href="/zh/guidelines/gl_ld_logomanual_external_zh.html" class="id1-3-3">公司外部用标识手册</a></li>
 </ul>
+</nav>
+
+</div>

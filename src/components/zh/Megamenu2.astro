@@ -1,0 +1,239 @@
+---
+import {
+  kessaiLinks,
+  brandEstablishmentLinks,
+  affiliateNamingLinks,
+  brandLicenseLinks,
+  domainNameLinks,
+  nameDisplayLinks,
+  brandCrownLinks,
+  merchandiseLinks,
+  noBrandLinks,
+  doubleBrandLinks,
+  oemLinks,
+  productBrandLinks,
+  compositeLogoLinks,
+  backgroundColorLinks,
+  brandLogoSpecialLinks,
+} from "../../data/headerLinks2";
+---
+
+<div class="mega-menu js-mega-menu" id="mega-menu-02">
+  <div class="close-mega-menu">
+    <img src="/src/assets_2025/images/common/close.svg" alt="閉じる" />
+  </div>
+  <div class="mega-menu-inner">
+    <div class="container">
+      <h2>全公司规程、审批</h2>
+      <div class="mega-menu-contents">
+        <div class="mega-menu-content">
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>审批、手续</h4>
+              <ul>
+                {
+                  kessaiLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>品牌的制定、修改和废除</h4>
+              <ul>
+                {
+                  brandEstablishmentLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>相关公司名称赋予基准</h4>
+                <ul>
+                  {
+                    affiliateNamingLinks.map((item) => (
+                      <li>
+                        <a href={item.urlZh}>{item.textZh}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>品牌许可规程</h4>
+              <ul>
+                {
+                  brandLicenseLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>域名运用基准</h4>
+              <ul>
+                {
+                  domainNameLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>名称标注</h4>
+                <ul>
+                  {
+                    nameDisplayLinks.map((item) => (
+                      <li>
+                        <a href={item.urlZh}>{item.textZh}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>以品牌冠名的名称</h4>
+              <ul>
+                {
+                  brandCrownLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>商品化权许可</h4>
+              <ul>
+                {
+                  merchandiseLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>无品牌</h4>
+                <ul>
+                  {
+                    noBrandLinks.map((item) => (
+                      <li>
+                        <a href={item.urlZh}>{item.textZh}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>双重品牌</h4>
+              <ul>
+                {
+                  doubleBrandLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>OEM供应</h4>
+              <ul>
+                {
+                  oemLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>商品品牌标注的特例</h4>
+                <ul>
+                  {
+                    productBrandLinks.map((item) => (
+                      <li>
+                        <a href={item.urlZh}>{item.textZh}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>复合标识</h4>
+              <ul>
+                {
+                  compositeLogoLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>背景色的特例</h4>
+              <ul>
+                {
+                  backgroundColorLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>品牌标识的特殊使用</h4>
+                <ul>
+                  {
+                    brandLogoSpecialLinks.map((item) => (
+                      <li>
+                        <a href={item.urlZh}>{item.textZh}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

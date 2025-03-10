@@ -1,0 +1,15 @@
+---
+import { faqLinks } from "../../data/headerLinks3";
+---
+
+<div class="mega-menu mega-menu-sp">
+  <ul class="links">
+    {
+      faqLinks.map((item) => (
+        <li>
+          <a href={item.urlZh}>{item.textZh}</a>
+        </li>
+      ))
+    }
+  </ul>
+</div>

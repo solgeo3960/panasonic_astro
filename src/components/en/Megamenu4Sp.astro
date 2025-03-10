@@ -1,0 +1,134 @@
+---
+import {
+  brandManagementLinks,
+  companyNoticeLinks,
+  brandHistoryLinks,
+  otherCompanyLinks,
+  surveyListLinks,
+  panasonicBrandSurveyLinks,
+  externalBrandSurveyLinks,
+} from "../../data/headerLinks4";
+---
+
+<div class="mega-menu mega-menu-sp">
+  <div class="accordions">
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3 class="">Group Brand Management System
+        </h3>
+        <div class="accordion-content">
+          <ul>
+            {
+              brandManagementLinks.map((item) => (
+                <li>
+                  <a href={item.urlEn}>{item.textEn}</a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header js-accordion-header">
+          <h3>Notices</h3>
+        </div>
+        <div class="accordion-content">
+          <ul>
+            {
+              companyNoticeLinks.map((item) => (
+                <li>
+                  <a href={item.urlEn}>{item.textEn}</a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header js-accordion-header">
+          <h3>History of the Panasonic Brand
+          </h3>
+        </div>
+        <div class="accordion-content">
+          <ul>
+            {
+              brandHistoryLinks.map((item) => (
+                <li>
+                  <a href={item.urlEn}>{item.textEn}</a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header js-accordion-header">
+          <h3>Case Studies of Other Companies' Brands
+          </h3>
+        </div>
+        <div class="accordion-content">
+          <ul>
+            {
+              otherCompanyLinks.map((item) => (
+                <li>
+                  <a href={item.urlEn}>{item.textEn}</a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header js-accordion-header">
+          <h3>Survey Data
+          </h3>
+        </div>
+        <div class="accordion-content">
+          <ul>
+            {
+              surveyListLinks.map((item) => (
+                <li>
+                  <a href={item.urlEn}>{item.textEn}</a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header js-accordion-header">
+          <h3>Panasonic Brand Survey
+          </h3>
+        </div>
+        <div class="accordion-content">
+          <ul>
+            {
+              panasonicBrandSurveyLinks.map((item) => (
+                <li>
+                  <a href={item.urlEn}>{item.textEn}</a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header js-accordion-header">
+          <h3>External Brand Ranking
+          </h3>
+        </div>
+        <div class="accordion-content">
+          <ul>
+            {
+              externalBrandSurveyLinks.map((item) => (
+                <li>
+                  <a href={item.urlEn}>{item.textEn}</a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

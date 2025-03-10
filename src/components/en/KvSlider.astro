@@ -1,0 +1,225 @@
+---
+import { Image } from "astro:assets";
+import kv1 from "/src/assets_2025/images/kv/kv1.png";
+const isPlay = true;
+---
+
+<div class="kv-slider">
+  <div class="kv-slider__inner">
+    <div class="kv-slider__item">
+      <!-- Swiper -->
+      <div class="swiper kvSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <Image src={kv1} alt="kv1" />
+            <div class="message">
+              <p>Group Brand Slogan</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <Image src={kv1} alt="kv1" />
+            <div class="message">
+              <p>Group Brand Slogan</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <Image src={kv1} alt="kv1" />
+            <div class="message">
+              <p>Group Brand Slogan</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <Image src={kv1} alt="kv1" />
+            <div class="message">
+              <p>Group Brand Slogan</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <Image src={kv1} alt="kv1" />
+            <div class="message">
+              <p>Group Brand Slogan</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <Image src={kv1} alt="kv1" />
+            <div class="message">
+              <p>Group Brand Slogan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pagination-wrap">
+        <div class="swiper-pagination"></div>
+        <div class="play_btn">
+          {
+            isPlay ? (
+              <button class="play_btn__btn" id="playPauseBtn">
+                <img
+                  src="/src/assets_2025/images/common/played.svg"
+                  alt="play_btn"
+                />
+              </button>
+            ) : (
+              <button class="play_btn__btn" id="playPauseBtn">
+                <img
+                  src="/src/assets_2025/images/common/stoped.svg"
+                  alt="pause_btn"
+                />
+              </button>
+            )
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  import Swiper from "swiper";
+  import { Navigation, Pagination, EffectFade, Autoplay } from "swiper/modules";
+  import "swiper/css/bundle";
+
+  export const swiperConfig = {
+    modules: [Navigation, Pagination, EffectFade, Autoplay],
+    // Optional parameters
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    effect: "fade",
+
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    // And if we need scrollbar
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+  };
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const swiper = new Swiper(".kvSwiper", swiperConfig);
+    const playPauseBtn = document.getElementById('playPauseBtn');
+    const playBtnImg = playPauseBtn?.querySelector('img');
+
+    if (playPauseBtn && playBtnImg) {
+      playPauseBtn.addEventListener('click', () => {
+        if (swiper.autoplay.running) {
+          swiper.autoplay.stop();
+          playBtnImg.src = '/src/assets_2025/images/common/stoped.svg';
+        } else {
+          swiper.autoplay.start();
+          playBtnImg.src = '/src/assets_2025/images/common/played.svg';
+        }
+      });
+    }
+  });
+</script>
+
+<style lang="scss" scoped>
+  @use "../../assets_2025/scss/_global.scss" as g;
+  .kv-slider {
+    background-color: white;
+    height: 288px;
+    width: 100%;
+    .kv-slider__inner {
+      height: 100%;
+      width: 100%;
+      .kv-slider__item {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        .kvSwiper {
+          height: 100%;
+        }
+        .swiper-slide {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          @include g.mq() {
+            padding: 0 20px;
+          }
+          img {
+            object-fit: cover;
+            @include g.mq() {
+              width: 100%;
+              object-fit: contain;
+              height: auto;
+            }
+          }
+          .message {
+            position: absolute;
+            bottom: 15px;
+            right: 40px;
+            color: var(--Black, #3d3d3d);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 28px; /* 175% */
+            @include g.mq() {
+              bottom: 10px;
+              right: 10px;
+            }
+          }
+        }
+      }
+    }
+    .pagination-wrap {
+      position: absolute;
+      width: 100%;
+      top: auto;
+      bottom: -40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @include g.mq() {
+        bottom: -30px;
+      }
+      .play_btn__btn{
+        position: relative;
+        top: -7px;
+        margin-left: 5px;
+      }
+    }
+    .swiper-pagination {
+      position: relative;
+      width: auto;
+    }
+    .swiper-pagination-bullet {
+      width: 80px !important;
+      height: 10px;
+      background-color: #3d3d3d;
+      opacity: 1;
+      @include g.mq() {
+        height: 3px;
+      }
+    }
+    .swiper-pagination-bullet-active {
+      width: 10px;
+    }
+    .swiper-slide {
+      .message {
+        opacity: 0;
+        transition: all 0.3s ease;
+      }
+    }
+    .swiper-slide-active {
+      .message {
+        opacity: 1;
+      }
+    }
+  }
+</style>

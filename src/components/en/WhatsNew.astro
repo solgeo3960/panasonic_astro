@@ -1,0 +1,175 @@
+---
+import { newsList, categoryList } from "../../data/newsEn";
+import TextLink from "../TextLink.astro";
+---
+
+<div class="container">
+  <div class="whats-new">
+    <div class="whats-new__inner">
+      <div class="whats-new__title-area">
+        <h2 class="whats-new__title">What's New</h2>
+      </div>
+      <div class="whats-new__content-area">
+        <ul class="whats-new__contents">
+          {
+            newsList.slice(0, 5).map((news) => (
+              <li class="whats-new__content-item">
+                <a href={news.url} target={news.targetBlank ? "_blank" : ""}>
+                  <div class="date">
+                    <p>{news.date}</p>
+                  </div>
+                  <div
+                    class={`category ${categoryList.find((category) => category.categoryNumber === news.categoryNumber)?.className}`}
+                    style={`background-color: ${categoryList.find((category) => category.categoryNumber === news.categoryNumber)?.color}`}
+                  >
+                    <span>
+                      {
+                        categoryList.find(
+                          (category) =>
+                            category.categoryNumber === news.categoryNumber
+                        )?.title
+                      }
+                    </span>
+                  </div>
+                  <div class="title">
+                    <h3>{news.title}</h3>
+                  </div>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="backnumber_link">
+      <TextLink text="Back Number" linkUrl="/en/wn_backnum_en.html" />
+    </div>
+  </div>
+</div>
+
+<style lang="scss" scoped>
+@use "../../assets_2025/scss/_global.scss" as g;
+  .whats-new {
+    margin-top: 114px;
+    @include g.mq() {
+      margin-top: 90px;
+    }
+    .whats-new__inner {
+      display: flex;
+      gap: 40px;
+      @include g.mq() {
+        flex-direction: column;
+      }
+      .whats-new__title-area {
+        margin-top: 20px;
+        @include g.mq() {
+          margin-top: 0;
+        }
+        .whats-new__title {
+          color: var(--Black, #3d3d3d);
+          font-size: 26px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 34px; /* 130.769% */
+        }
+      }
+      .whats-new__content-area {
+        flex-grow: 1;
+        ul.whats-new__contents {
+          li.whats-new__content-item {
+            padding: 20px 0;
+            border-bottom: 1px solid #c6c6c6;
+            &:first-child {
+              @include g.mq() {
+                padding-top: 0;
+              }
+            }
+            a {
+              display: flex;
+              align-items: center;
+              gap: 20px;
+              @include g.mq() {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+              }
+              &:hover {
+                opacity: 0.8;
+                text-decoration: none;
+              }
+              .date {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 120%; /* 14.4px */
+              }
+              .category {
+                display: flex;
+                width: 330px;
+                padding: 0px 8px;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 22px; /* 171.429% */
+                @include g.mq() {
+                  width: auto;
+                }
+              }
+              .title {
+                flex-grow: 1;
+                h3 {
+                  color: var(--Panasonic-prime, #0041c0);
+
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 300;
+                  line-height: 28px; /* 175% */
+                  padding-right: 30px;
+                }
+              }
+              &[href*=".pdf"] {
+                h3 {
+                  position: relative;
+                  &::after {
+                    content: "";
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    background-image: url("../../assets_2025/images/common/pdf.svg");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    @include g.mq() {
+                      top: 50%;
+                      transform: translateY(-50%);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .backnumber_link {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+      a {
+        color: var(--Panasonic-prime, #0041c0);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px; /* 100% */
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+    }
+  }
+</style>

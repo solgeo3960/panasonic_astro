@@ -1,5 +1,5 @@
 ---
-import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineUrls7, lineUrls8, lineUrls9, lineUrls10 ,lineUrlsCorporateGroup, lineUrlsProductService, lineUrlsAdvertising, lineUrlsDigital, lineUrlsOutsideBrand, lineUrlsOtherRules, lineUrlsLogoDownload} from "../data/headerLinks1";
+import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineUrls7, lineUrls8, lineUrls9, lineUrls10 ,lineUrlsCorporateGroup, lineUrlsProductService, lineUrlsAdvertising, lineUrlsDigital, lineUrlsOutsideBrand, lineUrlsOtherRules, lineUrlsLogoDownload} from "../../data/headerLinks1";
 
 ---
 
@@ -9,17 +9,19 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
   </div>
   <div class="mega-menu-inner">
     <div class="container">
-      <h2>ブランド表示ガイドライン</h2>
+      <h2>品牌表示指南
+      </h2>
       <div class="mega-menu-contents mega-menu-contents_2col">
         <div class="mega-menu-content">
-          <h3>ブランド表示ガイドライン</h3>
+          <h3>品牌表示指南
+          </h3>
           <div class="mega-menu-content-item-linkwrapper">
             <div class="mega-menu-content-item">
               <ul>
                 {
                   lineUrls1.map((item) => (
                     <li>
-                      <a href={item.url}>{item.text}</a>
+                      <a href={item.urlZh}>{item.textZh}</a>
                     </li>
                   ))
                 }
@@ -27,12 +29,13 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
             </div>
 
             <div class="mega-menu-content-item">
-              <h4>ブランドの大切さ</h4>
+              <h4>品牌的重要性
+              </h4>
               <ul>
                 {
                   lineUrls2.map((item) => (
                     <li>
-                      <a href={item.url}>{item.text}</a>
+                      <a href={item.urlZh}>{item.textZh}</a>
                     </li>
                   ))
                 }
@@ -43,14 +46,15 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
 
         <div class="mega-menu-content">
           <div class="mega-menu-content-item">
-            <h3>ブランド表示の基本原則</h3>
+            <h3>品牌标注的基本原则
+            </h3>
             <div class="mega-menu-content-item-linkwrapper">
               <div class="mega-menu-content-item">
                 <ul>
                   {
                     lineUrls3.map((item) => (
                       <li>
-                        <a href={item.url}>{item.text}</a>
+                        <a href={item.urlZh}>{item.textZh}</a>
                       </li>
                     ))
                   }
@@ -62,19 +66,21 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
       </div>
       <div class="mega-menu-contents ">
         <div class="mega-menu-content">
-          <h3>基本要素のルール</h3>
+          <h3>基本要素的规则
+          </h3>
           <p class="link">
             <a href={lineUrls4[0].url}>{lineUrls4[0].text}</a>
           </p>
 
           <div class="mega-menu-content-item-linkwrapper">
             <div class="mega-menu-content-item">
-              <h4>Panasonicロゴ</h4>
+              <h4>Panasonic标识
+              </h4>
               <ul>
                 {
                   lineUrls5.map((item) => (
                     <li>
-                      <a href={item.url}>{item.text}</a>
+                      <a href={item.urlZh}>{item.textZh}</a>
                     </li>
                   ))
                 }
@@ -82,42 +88,46 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
             </div>
 
             <div class="mega-menu-content-item">
-              <h4>Panasonic Groupロゴ</h4>
+              <h4>Panasonic Group标识
+              </h4>
               <ul>
                 {
                   lineUrls6.map((item) => (
                     <li>
-                      <a href={item.url}>{item.text}</a>
+                      <a href={item.urlZh}>{item.textZh}</a>
                     </li>
                   ))
                 }
               </ul>
-              <h4>事業会社ブランド</h4>
+              <h4>事业公司品牌
+              </h4>
               <ul>
                 {
                   lineUrls7.map((item) => (
                     <li>
-                      <a href={item.url}>{item.text}</a>
+                      <a href={item.urlZh}>{item.textZh}</a>
                     </li>
                   ))
                 }
               </ul>
-              <h4>パナソニック保証表示</h4>
+              <h4>Panasonic保证标注
+              </h4>
               <ul>
                 {
                   lineUrls8.map((item) => (
                     <li>
-                      <a href={item.url}>{item.text}</a>
+                      <a href={item.urlZh}>{item.textZh}</a>
                     </li>
                   ))
                 }
               </ul>
-              <h4>PUDフォント</h4>
+              <h4>PUD字体
+              </h4>
               <ul>
                 {
                   lineUrls9.map((item) => (
                     <li>
-                      <a href={item.url}>{item.text}</a>
+                      <a href={item.urlZh}>{item.textZh}</a>
                     </li>
                   ))
                 }
@@ -125,12 +135,13 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
             </div>
             <div class="mega-menu-content-item">
               <div class="mega-menu-content-item">
-                <h4>社名・グループ表記</h4>
+                <h4>公司、集团名称记载
+                </h4>
                 <ul>
                   {
                     lineUrls10.map((item) => (
                       <li>
-                        <a href={item.url}>{item.text}</a>
+                        <a href={item.urlZh}>{item.textZh}</a>
                       </li>
                     ))
                   }
@@ -143,16 +154,18 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
       
       <div class="mega-menu-contents ">
         <div class="mega-menu-content">
-          <h3>アプリケーションのルール</h3>
+          <h3>应用软件的规则
+          </h3>
 
           <div class="mega-menu-content-item-linkwrapper">
             <div class="mega-menu-content-item">
-              <h4>企業グループの表示</h4>
+              <h4>企业集团的表示
+              </h4>
               <ul>
                 {
                   lineUrlsCorporateGroup.map((item) => (
                     <li>
-                      <a href={item.url}>{item.text}</a>
+                      <a href={item.urlZh}>{item.textZh}</a>
                     </li>
                   ))
                 }
@@ -160,22 +173,24 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
             </div>
 
             <div class="mega-menu-content-item">
-              <h4>商品・サービスでの表示 </h4>
+              <h4>商品、服务相关表示
+              </h4>
               <ul>
                 {
                   lineUrlsProductService.map((item) => (
                     <li>
-                      <a href={item.url}>{item.text}</a>
+                      <a href={item.urlZh}>{item.textZh}</a>
                     </li>
                   ))
                 }
               </ul>
-              <h4>宣伝・販促での表示</h4>
+              <h4>宣传、促销相关表示
+              </h4>
               <ul>
                 {
                   lineUrlsAdvertising.map((item) => (
                     <li>
-                      <a href={item.url}>{item.text}</a>
+                      <a href={item.urlZh}>{item.textZh}</a>
                     </li>
                   ))
                 }
@@ -183,22 +198,24 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
             </div>
             <div class="mega-menu-content-item">
               <div class="mega-menu-content-item">
-                <h4>デジタルメディアでの表示</h4>
+                <h4>在数字媒体中的显示
+                </h4>
                 <ul>
                   {
                     lineUrlsDigital.map((item) => (
                       <li>
-                        <a href={item.url}>{item.text}</a>
+                        <a href={item.urlZh}>{item.textZh}</a>
                       </li>
                     ))
                   }
                 </ul>
-                <h4>グループ外のブランド使用</h4>
+                <h4>集团外的品牌使用
+                </h4>
                 <ul>
                   {
                     lineUrlsOutsideBrand.map((item) => (
                       <li>
-                        <a href={item.url}>{item.text}</a>
+                        <a href={item.urlZh}>{item.textZh}</a>
                       </li>
                     ))
                   }
@@ -210,7 +227,8 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
       </div>
       <div class="mega-menu-contents ">
         <div class="mega-menu-content">
-          <h3>その他の表示ルール</h3>
+          <h3>其他标注规则
+          </h3>
 
           <div class="mega-menu-content-item-linkwrapper">
             <div class="mega-menu-content-item">
@@ -218,7 +236,7 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
                 {
                   lineUrlsOtherRules.map((item) => (
                     <li>
-                      <a href={item.url}>{item.text}</a>
+                      <a href={item.urlZh}>{item.textZh}</a>
                     </li>
                   ))
                 }
@@ -230,7 +248,9 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
       </div>
       <div class="mega-menu-contents ">
         <div class="mega-menu-content">
-          <h3>ロゴ/ダウンロード</h3>
+          <h3>标识 / 下载
+
+          </h3>
 
           <div class="mega-menu-content-item-linkwrapper">
             <div class="mega-menu-content-item">
@@ -238,7 +258,7 @@ import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineU
                 {
                   lineUrlsLogoDownload.map((item) => (
                     <li>
-                      <a href={item.url}>{item.text}</a>
+                      <a href={item.urlZh}>{item.textZh}</a>
                     </li>
                   ))
                 }

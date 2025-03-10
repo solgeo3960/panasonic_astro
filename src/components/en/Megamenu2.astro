@@ -1,0 +1,254 @@
+---
+import {
+  kessaiLinks,
+  brandEstablishmentLinks,
+  affiliateNamingLinks,
+  brandLicenseLinks,
+  domainNameLinks,
+  nameDisplayLinks,
+  brandCrownLinks,
+  merchandiseLinks,
+  noBrandLinks,
+  doubleBrandLinks,
+  oemLinks,
+  productBrandLinks,
+  compositeLogoLinks,
+  backgroundColorLinks,
+  brandLogoSpecialLinks,
+} from "../../data/headerLinks2";
+---
+
+<div class="mega-menu js-mega-menu" id="mega-menu-02">
+  <div class="close-mega-menu">
+    <img src="/src/assets_2025/images/common/close.svg" alt="閉じる" />
+  </div>
+  <div class="mega-menu-inner">
+    <div class="container">
+      <h2>Corporate Rules & Standards / Approval Procedure</h2>
+      <div class="mega-menu-contents">
+        <div class="mega-menu-content">
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>Approval Procedure
+              </h4>
+              <ul>
+                {
+                  kessaiLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>Brand Establishment, Revision, and Termination
+              </h4>
+              <ul>
+                {
+                  brandEstablishmentLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>Rules for Naming Affiliated Companies
+                </h4>
+                <ul>
+                  {
+                    affiliateNamingLinks.map((item) => (
+                      <li>
+                        <a href={item.urlEn}>{item.textEn}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>Rules for Brand License
+              </h4>
+              <ul>
+                {
+                  brandLicenseLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>Operational Standards for Domain Name
+              </h4>
+              <ul>
+                {
+                  domainNameLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>Name Expression
+                </h4>
+                <ul>
+                  {
+                    nameDisplayLinks.map((item) => (
+                      <li>
+                        <a href={item.urlEn}>{item.textEn}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>Names Including the Panasonic Brand
+              </h4>
+              <ul>
+                {
+                  brandCrownLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>Licensing of Merchandising Rights
+              </h4>
+              <ul>
+                {
+                  merchandiseLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>Goods / Services with No Brand Name
+                </h4>
+                <ul>
+                  {
+                    noBrandLinks.map((item) => (
+                      <li>
+                        <a href={item.urlEn}>{item.textEn}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>Co-Branding
+              </h4>
+              <ul>
+                {
+                  doubleBrandLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>OEM Supply
+              </h4>
+              <ul>
+                {
+                  oemLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>Special Rules for Display on Products
+                </h4>
+                <ul>
+                  {
+                    productBrandLinks.map((item) => (
+                      <li>
+                        <a href={item.urlEn}>{item.textEn}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>Composite Logo
+              </h4>
+              <ul>
+                {
+                  compositeLogoLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>Special Use of Background Colors
+              </h4>
+              <ul>
+                {
+                  backgroundColorLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>Special Use of the Brand Logo
+                </h4>
+                <ul>
+                  {
+                    brandLogoSpecialLinks.map((item) => (
+                      <li>
+                        <a href={item.urlEn}>{item.textEn}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -15,21 +15,22 @@ import {
   compositeLogoLinks,
   backgroundColorLinks,
   brandLogoSpecialLinks,
-} from "../data/headerLinks2";
+} from "../../data/headerLinks2";
 ---
 
 <div class="mega-menu mega-menu-sp">
   <div class="accordions">
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3 class="">決裁・手続き</h3>
+        <h3 class="">Approval Procedure
+        </h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
             kessaiLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -38,14 +39,15 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>ブランドの制定・改廃</h3>
+        <h3>Brand Establishment, Revision, and Termination
+        </h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
             brandEstablishmentLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -54,14 +56,15 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>関係会社社名付与基準</h3>
+        <h3>Rules for Naming Affiliated Companies
+        </h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
             affiliateNamingLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -70,14 +73,15 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>ブランドライセンス規程</h3>
+        <h3>Rules for Brand License
+        </h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
             brandLicenseLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -86,14 +90,15 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>ドメインネーム運用基準</h3>
+        <h3>Operational Standards for Domain Name
+        </h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
             domainNameLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -102,14 +107,15 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>ネーム表示</h3>
+        <h3>Name Expression
+        </h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
             nameDisplayLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -118,14 +124,15 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>ブランド冠称名称</h3>
+        <h3>Names Including the Panasonic Brand
+        </h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
             brandCrownLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -134,14 +141,15 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>商品化権許諾</h3>
+        <h3>Licensing of Merchandising Rights
+        </h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
             merchandiseLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -150,14 +158,15 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>ノーブランド</h3>
+        <h3>Goods / Services with No Brand Name
+        </h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
             noBrandLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -166,14 +175,15 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>ダブルブランド</h3>
+        <h3>Co-Branding
+        </h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
             doubleBrandLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -182,14 +192,15 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>OEM供給</h3>
+        <h3>OEM Supply
+        </h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
             oemLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -198,14 +209,16 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>商品ブランド表示の特例</h3>
+        <h3>Special Rules for Display on Products
+
+        </h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
             productBrandLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -214,7 +227,8 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>コンポジットロゴ
+        <h3>Composite Logo
+
         </h3>
       </div>
       <div class="accordion-content">
@@ -222,7 +236,7 @@ import {
           {
             compositeLogoLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -231,7 +245,8 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>背景色の特例
+        <h3>Special Use of Background Colors
+
         </h3>
       </div>
       <div class="accordion-content">
@@ -239,7 +254,7 @@ import {
           {
             backgroundColorLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }
@@ -248,7 +263,8 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>ブランドロゴ特別使用
+        <h3>Special Use of the Brand Logo
+
         </h3>
       </div>
       <div class="accordion-content">
@@ -256,7 +272,7 @@ import {
           {
             brandLogoSpecialLinks.map((item) => (
               <li>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.urlEn}>{item.textEn}</a>
               </li>
             ))
           }

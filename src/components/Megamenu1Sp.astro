@@ -10,6 +10,13 @@ import {
   lineUrls8,
   lineUrls9,
   lineUrls10,
+  lineUrlsCorporateGroup,
+  lineUrlsProductService,
+  lineUrlsAdvertising,
+  lineUrlsDigital,
+  lineUrlsOutsideBrand,
+  lineUrlsOtherRules,
+  lineUrlsLogoDownload,
 } from "../data/headerLinks1";
 ---
 
@@ -38,6 +45,22 @@ import {
       <div class="accordion-content">
         <ul>
           {
+            lineUrls3.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>ブランドの大切さ</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
             lineUrls2.map((item) => (
               <li>
                 <a href={item.url}>{item.text}</a>
@@ -54,7 +77,7 @@ import {
       <div class="accordion-content">
         <ul>
           {
-            lineUrls2.map((item) => (
+            lineUrls4.map((item) => (
               <li>
                 <a href={item.url}>{item.text}</a>
               </li>
@@ -65,12 +88,12 @@ import {
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
-        <h3>アプリケーションのルール</h3>
+        <h3>Panasonicロゴ</h3>
       </div>
       <div class="accordion-content">
         <ul>
           {
-            lineUrls2.map((item) => (
+            lineUrls5.map((item) => (
               <li>
                 <a href={item.url}>{item.text}</a>
               </li>
@@ -79,8 +102,196 @@ import {
         </ul>
       </div>
     </div>
-    <div class="normal_link">
-      <a href="/guidelines/gl_otherrules.html">その他の表示ルール</a>
+
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>Panasonic Groupロゴ</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            lineUrls6.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>事業会社ブランド</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            lineUrls7.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>パナソニック保証表示</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            lineUrls8.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>PUDフォント</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            lineUrls9.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>  
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>社名・グループ表記</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            lineUrls10.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>  
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="normal_text">
+      <h2>アプリケーションのルール</h2>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>企業グループの表示</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            lineUrlsCorporateGroup.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>  
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>商品・サービスでの表示</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            lineUrlsProductService.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>  
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>宣伝・販促での表示</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            lineUrlsAdvertising.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>  
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>デジタルメディアでの表示</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            lineUrlsDigital.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>  
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>グループ外のブランド使用</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            lineUrlsOutsideBrand.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>  
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>  その他の表示ルール </h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            lineUrlsOtherRules.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
     </div>
     <div class="accordion">
       <div class="accordion-header js-accordion-header">
@@ -89,7 +300,7 @@ import {
       <div class="accordion-content">
         <ul>
           {
-            lineUrls2.map((item) => (
+            lineUrlsLogoDownload.map((item) => (
               <li>
                 <a href={item.url}>{item.text}</a>
               </li>

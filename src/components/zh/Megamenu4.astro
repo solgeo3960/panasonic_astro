@@ -1,0 +1,129 @@
+---
+import {
+  brandManagementLinks,
+  companyNoticeLinks,
+  brandHistoryLinks,
+  otherCompanyLinks,
+  surveyListLinks,
+  panasonicBrandSurveyLinks,
+  externalBrandSurveyLinks,
+} from "../../data/headerLinks4";
+---
+
+<div class="mega-menu js-mega-menu" id="mega-menu-04">
+  <div class="close-mega-menu">
+    <img src="/src/assets_2025/images/common/close.svg" alt="閉じる" />
+  </div>
+  <div class="mega-menu-inner">
+    <div class="container">
+      <h2>其他相关信息</h2>
+      <div class="mega-menu-contents">
+        <div class="mega-menu-content">
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>全公司品牌管理推进体制
+              </h4>
+              <ul>
+                {
+                  brandManagementLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>全公司通知集
+              </h4>
+              <ul>
+                {
+                  companyNoticeLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>Panasonic品牌的历史
+                </h4>
+                <ul>
+                  {
+                    brandHistoryLinks.map((item) => (
+                      <li>
+                        <a href={item.urlZh}>{item.textZh}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>其他公司事例集
+              </h4>
+              <ul>
+                {
+                  otherCompanyLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>各种调查结果
+              </h4>
+              <ul>
+                {
+                  surveyListLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>Panasonic品牌调查
+                </h4>
+                <ul>
+                  {
+                    panasonicBrandSurveyLinks.map((item) => (
+                      <li>
+                        <a href={item.urlZh}>{item.textZh}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>外部品牌调查
+              </h4>
+              <ul>
+                {
+                  externalBrandSurveyLinks.map((item) => (
+                    <li>
+                      <a href={item.urlZh}>{item.textZh}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

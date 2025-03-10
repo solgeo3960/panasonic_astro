@@ -1,0 +1,127 @@
+---
+import {
+  brandManagementLinks,
+  companyNoticeLinks,
+  brandHistoryLinks,
+  otherCompanyLinks,
+  surveyListLinks,
+  panasonicBrandSurveyLinks,
+  externalBrandSurveyLinks,
+} from "../../data/headerLinks4";
+---
+
+<div class="mega-menu js-mega-menu" id="mega-menu-04">
+  <div class="close-mega-menu">
+    <img src="/src/assets_2025/images/common/close.svg" alt="閉じる" />
+  </div>
+  <div class="mega-menu-inner">
+    <div class="container">
+      <h2>Other Related Information</h2>
+      <div class="mega-menu-contents">
+        <div class="mega-menu-content">
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>Group Brand Management System</h4>
+              <ul>
+                {
+                  brandManagementLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>Notices</h4>
+              <ul>
+                {
+                  companyNoticeLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>History of the Panasonic Brand
+                </h4>
+                <ul>
+                  {
+                    brandHistoryLinks.map((item) => (
+                      <li>
+                        <a href={item.urlEn}>{item.textEn}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>Case Studies of Other Companies' Brands
+              </h4>
+              <ul>
+                {
+                  otherCompanyLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>Survey Data
+              </h4>
+              <ul>
+                {
+                  surveyListLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>Panasonic Brand Survey
+                </h4>
+                <ul>
+                  {
+                    panasonicBrandSurveyLinks.map((item) => (
+                      <li>
+                        <a href={item.urlEn}>{item.textEn}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>External Brand Ranking
+              </h4>
+              <ul>
+                {
+                  externalBrandSurveyLinks.map((item) => (
+                    <li>
+                      <a href={item.urlEn}>{item.textEn}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
