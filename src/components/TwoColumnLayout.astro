@@ -1,0 +1,78 @@
+---
+interface Props {
+  title: string;
+  linkUrl?: string;
+  linkText?: string;
+}
+
+const { title, linkUrl, linkText } = Astro.props;
+---
+
+<div class="two-column-layout">
+  <div class="left-column">
+    <h2 class="title">{title}</h2>
+    {
+      linkUrl && (
+        <div class="btn_area">
+          <a href={linkUrl} class="btn">
+            {linkText}
+            <i>
+              <img src="/src/assets_2025/images/common/arrow-forward.svg" alt="→" />
+            </i>
+          </a>
+        </div>
+      )
+    }
+  </div>
+  <div class="right-column">
+    <slot />
+  </div>
+</div>
+
+<style lang="scss" scoped>
+@use "../assets_2025/scss/_global.scss" as g;
+  .two-column-layout {
+    display: flex;
+    gap: 40px;
+    & + .two-column-layout {
+      margin-top: 80px;
+    }
+    @include g.mq() {
+      flex-direction: column;
+      gap: 28px;
+    }
+  }
+
+  .left-column {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    flex-shrink: 0;
+    @include g.mq() {
+      width: 100%;
+      gap: 16px;
+    }
+  }
+
+  .title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px; /* 130.769% */
+  }
+
+  .right-column {
+    p {
+      margin-top: 20px;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 28px; /* 175% */
+    }
+    a {
+      text-decoration: underline;
+      color: var(--Panasonic-prime, #0041c0);
+    }
+  }
+</style>

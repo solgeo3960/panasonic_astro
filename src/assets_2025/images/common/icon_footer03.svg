@@ -1,0 +1,10 @@
+<svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="account_tree">
+<mask id="mask0_2019_545" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="49" height="48">
+<rect id="Bounding box" x="0.333252" width="48" height="48" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_2019_545)">
+<path id="account_tree_2" d="M30.9758 41.5V35.3075H23.1988V14.9425H17.7218V21.3075H4.83325V6.5H17.7218V12.673H30.9758V6.5H43.8333V21.3075H30.9758V14.9425H25.4678V33.0385H30.9758V26.673H43.8333V41.5H30.9758ZM33.2448 19.0385H41.5643V8.769H33.2448V19.0385ZM33.2448 39.231H41.5643V28.9425H33.2448V39.231ZM7.10225 19.0385H15.4528V8.769H7.10225V19.0385Z" fill="#0041C0"/>
+</g>
+</g>
+</svg>

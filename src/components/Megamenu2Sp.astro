@@ -1,0 +1,216 @@
+---
+import {
+  kessaiLinks,
+  brandEstablishmentLinks,
+  affiliateNamingLinks,
+  brandLicenseLinks,
+  domainNameLinks,
+  nameDisplayLinks,
+  brandCrownLinks,
+  merchandiseLinks,
+  noBrandLinks,
+  doubleBrandLinks,
+  oemLinks,
+  productBrandLinks,
+  compositeLogoLinks,
+  backgroundColorLinks,
+  brandLogoSpecialLinks,
+} from "../data/headerLinks2";
+---
+
+<div class="mega-menu mega-menu-sp">
+  <div class="accordions">
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3 class="">決裁・手続き</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            kessaiLinks.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>ブランドの制定・改廃</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            brandEstablishmentLinks.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>関係会社社名付与基準</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            affiliateNamingLinks.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>ブランドライセンス規程</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            brandLicenseLinks.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>ドメインネーム運用基準</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            domainNameLinks.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>ネーム表示</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            nameDisplayLinks.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>ブランド冠称名称</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            brandCrownLinks.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>商品化権許諾</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            merchandiseLinks.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>ノーブランド</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            noBrandLinks.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>ダブルブランド</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            doubleBrandLinks.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>OEM供給</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            oemLinks.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header js-accordion-header">
+        <h3>商品ブランド表示の特例</h3>
+      </div>
+      <div class="accordion-content">
+        <ul>
+          {
+            productBrandLinks.map((item) => (
+              <li>
+                <a href={item.url}>{item.text}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

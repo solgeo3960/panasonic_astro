@@ -1,0 +1,62 @@
+---
+interface Props {
+  imageUrl: string;
+  alt: string;
+  title: string;
+}
+
+const { imageUrl, alt, title } = Astro.props;
+---
+
+<div class="two-column-layout two-column-layout_image">
+  <div class="left-column">
+    <div class="sp">
+      <h3 class="title">{title}</h3>
+    </div>
+    <img src={imageUrl} alt={alt} />
+  </div>
+  <div class="right-column">
+    <slot />
+  </div>
+</div>
+
+<style lang="scss" scoped>
+  @use "../assets_2025/scss/_global.scss" as g;
+  .two-column-layout {
+    display: flex;
+    gap: 40px;
+    @include g.mq() {
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+
+  .left-column {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    flex-shrink: 0;
+  }
+
+  .title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+  }
+
+  .right-column {
+    p {
+      margin-top: 20px;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 28px; /* 175% */
+    }
+    a {
+      text-decoration: underline;
+      color: var(--Panasonic-prime, #0041c0);
+    }
+  }
+</style>

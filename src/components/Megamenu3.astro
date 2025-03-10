@@ -1,0 +1,31 @@
+---
+import { faqLinks } from "../data/headerLinks3";
+---
+
+<div class="mega-menu js-mega-menu" id="mega-menu-03">
+  <div class="close-mega-menu">
+    <img src="/src/assets_2025/images/common/close.svg" alt="閉じる" />
+  </div>
+  <div class="mega-menu-inner">
+    <div class="container">
+      <h2>FAQ・e-ラーニング</h2>
+      <div class="mega-menu-contents">
+        <div class="mega-menu-content">
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <ul>
+                {
+                  faqLinks.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

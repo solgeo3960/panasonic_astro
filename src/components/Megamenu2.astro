@@ -1,0 +1,239 @@
+---
+import {
+  kessaiLinks,
+  brandEstablishmentLinks,
+  affiliateNamingLinks,
+  brandLicenseLinks,
+  domainNameLinks,
+  nameDisplayLinks,
+  brandCrownLinks,
+  merchandiseLinks,
+  noBrandLinks,
+  doubleBrandLinks,
+  oemLinks,
+  productBrandLinks,
+  compositeLogoLinks,
+  backgroundColorLinks,
+  brandLogoSpecialLinks,
+} from "../data/headerLinks2";
+---
+
+<div class="mega-menu js-mega-menu" id="mega-menu-02">
+  <div class="close-mega-menu">
+    <img src="/src/assets_2025/images/common/close.svg" alt="閉じる" />
+  </div>
+  <div class="mega-menu-inner">
+    <div class="container">
+      <h2>全社規定・決済</h2>
+      <div class="mega-menu-contents">
+        <div class="mega-menu-content">
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>決裁・手続き</h4>
+              <ul>
+                {
+                  kessaiLinks.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>ブランドの制定・改廃</h4>
+              <ul>
+                {
+                  brandEstablishmentLinks.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>関係会社社名付与基準</h4>
+                <ul>
+                  {
+                    affiliateNamingLinks.map((item) => (
+                      <li>
+                        <a href={item.url}>{item.text}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>ブランドライセンス規程</h4>
+              <ul>
+                {
+                  brandLicenseLinks.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>ドメインネーム運用基準</h4>
+              <ul>
+                {
+                  domainNameLinks.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>ネーム表示</h4>
+                <ul>
+                  {
+                    nameDisplayLinks.map((item) => (
+                      <li>
+                        <a href={item.url}>{item.text}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>ブランド冠称名称</h4>
+              <ul>
+                {
+                  brandCrownLinks.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>商品化権許諾</h4>
+              <ul>
+                {
+                  merchandiseLinks.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>ノーブランド</h4>
+                <ul>
+                  {
+                    noBrandLinks.map((item) => (
+                      <li>
+                        <a href={item.url}>{item.text}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>ダブルブランド</h4>
+              <ul>
+                {
+                  doubleBrandLinks.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>OEM供給</h4>
+              <ul>
+                {
+                  oemLinks.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>商品ブランド表示の特例</h4>
+                <ul>
+                  {
+                    productBrandLinks.map((item) => (
+                      <li>
+                        <a href={item.url}>{item.text}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>コンポジットロゴ</h4>
+              <ul>
+                {
+                  compositeLogoLinks.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>背景色の特例</h4>
+              <ul>
+                {
+                  backgroundColorLinks.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>ブランドロゴ特別使用</h4>
+                <ul>
+                  {
+                    brandLogoSpecialLinks.map((item) => (
+                      <li>
+                        <a href={item.url}>{item.text}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

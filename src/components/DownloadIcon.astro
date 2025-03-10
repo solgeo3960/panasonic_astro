@@ -1,0 +1,33 @@
+---
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+---
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="40"
+  height="40"
+  viewBox="0 0 40 40"
+  fill="none"
+  class={className}
+>
+  <mask
+    id="mask0_2019_461"
+    style="mask-type:alpha"
+    maskUnits="userSpaceOnUse"
+    x="0"
+    y="0"
+    width="40"
+    height="40"
+  >
+    <rect width="40" height="40" fill="#D9D9D9"></rect>
+  </mask>
+  <g mask="url(#mask0_2019_461)">
+    <path
+      d="M20 26.7617L11.4625 18.2242L13.7104 15.9684L18.4216 20.6829V6.38086H21.5783V20.6829L26.2895 15.9684L28.5375 18.2242L20 26.7617ZM9.54412 33.6125C8.68301 33.6125 7.94162 33.3017 7.31995 32.68C6.69828 32.0584 6.38745 31.317 6.38745 30.4559V24.8171H9.54412V30.4559H30.4558V24.8171H33.6191V30.4559C33.6191 31.3167 33.3076 32.0579 32.6845 32.6796C32.0615 33.3016 31.3186 33.6125 30.4558 33.6125H9.54412Z"
+      fill="white"></path>
+  </g>
+</svg>

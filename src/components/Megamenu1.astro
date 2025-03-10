@@ -1,0 +1,145 @@
+---
+import { lineUrls1, lineUrls2, lineUrls3, lineUrls4, lineUrls5, lineUrls6, lineUrls7, lineUrls8, lineUrls9, lineUrls10 } from "../data/headerLinks1";
+
+---
+
+<div class="mega-menu js-mega-menu" id="mega-menu-01">
+  <div class="close-mega-menu">
+    <img src="/src/assets_2025/images/common/close.svg" alt="閉じる" />
+  </div>
+  <div class="mega-menu-inner">
+    <div class="container">
+      <h2>ブランド表示ガイドライン</h2>
+      <div class="mega-menu-contents mega-menu-contents_2col">
+        <div class="mega-menu-content">
+          <h3>ブランド表示ガイドライン</h3>
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <ul>
+                {
+                  lineUrls1.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>ブランドの大切さ</h4>
+              <ul>
+                {
+                  lineUrls2.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mega-menu-content">
+          <div class="mega-menu-content-item">
+            <h3>ブランド表示の基本原則</h3>
+            <div class="mega-menu-content-item-linkwrapper">
+              <div class="mega-menu-content-item">
+                <ul>
+                  {
+                    lineUrls3.map((item) => (
+                      <li>
+                        <a href={item.url}>{item.text}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mega-menu-contents ">
+        <div class="mega-menu-content">
+          <h3>基本要素のルール</h3>
+          <p class="link">
+            <a href="#">基本要素のルール一覧</a>
+          </p>
+
+          <div class="mega-menu-content-item-linkwrapper">
+            <div class="mega-menu-content-item">
+              <h4>Panasonicロゴ</h4>
+              <ul>
+                {
+                  lineUrls5.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+
+            <div class="mega-menu-content-item">
+              <h4>Panasonic Groupロゴ</h4>
+              <ul>
+                {
+                  lineUrls6.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+              <h4>事業会社ブランド</h4>
+              <ul>
+                {
+                  lineUrls7.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+              <h4>パナソニック保証表示</h4>
+              <ul>
+                {
+                  lineUrls8.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+              <h4>PUDフォント</h4>
+              <ul>
+                {
+                  lineUrls9.map((item) => (
+                    <li>
+                      <a href={item.url}>{item.text}</a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+            <div class="mega-menu-content-item">
+              <div class="mega-menu-content-item">
+                <h4>社名・グループ表記</h4>
+                <ul>
+                  {
+                    lineUrls10.map((item) => (
+                      <li>
+                        <a href={item.url}>{item.text}</a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

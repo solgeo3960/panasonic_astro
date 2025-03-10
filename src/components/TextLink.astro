@@ -1,0 +1,38 @@
+---
+interface Props {
+  text: string;
+  linkUrl: string;
+}
+
+const { text, linkUrl } = Astro.props;
+---
+
+<div class="text-link">
+  <a href={linkUrl} class="btn">
+    {text}<i
+      ><img src="/src/assets_2025/images/common/arrow-forward.svg" alt="矢印" /></i
+    >
+  </a>
+</div>
+
+<style lang="scss" scoped>
+@use "../assets_2025/scss/_global.scss" as g;
+  .text-link {
+    .btn {
+      display: inline-flex;
+      gap: 4px;
+      align-items: center;
+      text-decoration: none;
+      color: var(--Panasonic-prime, #0041c0);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px; /* 100% */
+      transition: all 0.3s ease;
+      &:hover {
+        text-decoration: none;
+        opacity: 0.6;
+      }
+    }
+  }
+</style>

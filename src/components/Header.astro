@@ -1,0 +1,221 @@
+---
+import { Image } from "astro:assets";
+import Megamenu1 from "./Megamenu1.astro";
+import Megamenu1Sp from "./Megamenu1Sp.astro";
+import Megamenu2 from "./Megamenu2.astro";
+import Megamenu2Sp from "./Megamenu2Sp.astro";
+import Megamenu3 from "./Megamenu3.astro";
+import Megamenu3Sp from "./Megamenu3Sp.astro";
+import Megamenu4 from "./Megamenu4.astro";
+import Megamenu4Sp from "./Megamenu4Sp.astro";
+---
+
+<header class="header">
+  <div class="header-top">
+    <div class="logos">
+      <div class="logo-panasonic">
+        <a href="/">
+          <Image
+            src="/src/assets_2025/images/common/piw.svg"
+            alt="Panasonic"
+            width="135"
+            height="30"
+          />
+        </a>
+      </div>
+      <div class="clear-cache">
+        表示の不具合がある場合は「<a
+          href="/brandmanagement/link/mente/20220901_jp.pdf"
+          target="_blank">一時ファイルのクリア</a
+        >」を行なってください。
+      </div>
+      <div class="logo-panasonic-sub">
+        <a href="/">
+          <Image
+            src="/src/assets_2025/images/common/logo.svg"
+            alt="Panasonic"
+            width="135"
+            height="20"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-middle">
+    <div class="onlypc">
+      <div class="header-middle-inner">
+        <div class="site-name">ブランド表示ガイドライン</div>
+        <div class="header-search">
+          <form action="/search/index.php" method="post">
+            <div class="header-search-input">
+              <img src="/src/assets_2025/images/common/search.svg" alt="検索" />
+              <input
+                id="searchInput"
+                type="text"
+                placeholder="何をお探しですか？入力してEnter"
+                name="keyword"
+                autocomplete="off"
+              />
+            </div>
+            <div class="info-icon">
+              <img src="/src/assets_2025/images/common/info.svg" alt="情報" />
+            </div>
+            <input type="hidden" name="lang" value="ja" />
+            <div id="suggest">
+              <span> </span>
+            </div>
+          </form>
+        </div>
+        <div class="sub_navis">
+          <div class="sub_navi">
+            <a href="/guidelines/gl_ab_scope.html" class="sub_navi-link">
+              <span>よくあるご質問</span>
+            </a>
+          </div>
+          <div class="sub_navi">
+            <a href="/guidelines/gl_ab_positioning.html" class="sub_navi-link">
+              <span>ブランド相談・承認窓口</span>
+            </a>
+          </div>
+          <div class="sub_navi">
+            <ul class="lang-switcher">
+              <li>
+                <a href="" id="lang01">
+                  <span
+                    ><img
+                      src="/src/assets_2025/images/common/arrow.svg"
+                      alt="English"
+                      width="12"
+                      height="12"
+                    />English</span
+                  >
+                </a>
+              </li>
+              <li>
+                <a href="" id="lang02">
+                  <span
+                    ><img
+                      src="/src/assets_2025/images/common/arrow.svg"
+                      alt="Chinese"
+                      width="12"
+                      height="12"
+                    />Chinese</span
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sptab">
+      <div class="header-middle-inner">
+        <div class="humberger js-humberger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="site-name">ブランド表示ガイドライン</div>
+        <div class="header-search-icon">
+          <img src="/src/assets_2025/images/common/search.svg" alt="検索" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-bottom">
+    <div class="header-bottom-inner">
+      <div class="container">
+        <div class="sptab">
+          <div class="sptab-title">
+            <h2>ブランド表示ガイドライン</h2>
+            <div class="close_btn js-close_btn">
+              <img
+                src="/src/assets_2025/images/common/spClose.svg"
+                alt="閉じる"
+              />
+            </div>
+          </div>
+        </div>
+        <nav class="main-nav">
+          <ul class="main-nav-lists">
+            <li class="onlypc"><a href="/" class="main-nav-link">HOME</a></li>
+            <li class="mega-menu-trigger" data-mega-menu-id="mega-menu-01">
+              <a href="#" class="main-nav-link"
+                >ブランド表示ガイドライン・ロゴ
+              </a>
+              <div class="sptab">
+                <Megamenu1Sp />
+              </div>
+            </li>
+            <li class="mega-menu-trigger" data-mega-menu-id="mega-menu-02">
+              <a href="#" class="main-nav-link">
+              全社規程・決裁</a>
+            
+              <div class="sptab">
+                <Megamenu2Sp />
+              </div>
+            </li>
+            <li class="mega-menu-trigger" data-mega-menu-id="mega-menu-03">
+              <a href="#" class="main-nav-link">FAQ・e-ラーニング</a>
+              <div class="sptab">
+                <Megamenu3Sp />
+              </div>
+            </li>
+            <li class="mega-menu-trigger" data-mega-menu-id="mega-menu-04">
+              <a href="#" class="main-nav-link">その他関連情報</a>
+              <div class="sptab">
+                <Megamenu4Sp />
+              </div>
+            </li>
+          </ul>
+          <div class="sp">
+            <div class="sp-nav_linkboxs">
+                <div class="sp-nav_linkbox">
+                  <a href="/guidelines/gl_ab_scope.html">よくあるご質問</a>
+                </div>
+                <div class="sp-nav_linkbox">
+                  <a href="/guidelines/gl_ab_positioning.html">ブランド相談・承認窓口</a>
+                </div>
+            </div>
+
+            <ul class="lang-switcher">
+              <li>
+                <a href="" id="lang01">
+                  <span
+                    ><img
+                      src="/src/assets_2025/images/common/arrow-sp-blue.svg"
+                      alt="English"
+                      width="12"
+                      height="12"
+                    />English</span
+                  >
+                </a>
+              </li>
+              <li>
+                <a href="" id="lang02">
+                  <span
+                    ><img
+                      src="/src/assets_2025/images/common/arrow-sp-blue.svg"
+                      alt="Chinese"
+                      width="12"
+                      height="12"
+                    />Chinese</span
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="mega-menus onlypc">
+      <Megamenu1 />
+      <Megamenu2 />
+      <Megamenu3 />
+      <Megamenu4 />
+    </div>
+  </div>
+</header>
+<div class="menu-overlay"></div>

@@ -1,0 +1,35 @@
+@use '_function.scss' as f;
+:root{
+  --Panasonic-prime: #0041C0;
+}
+body {
+  background-color: #F9F9F9;
+  color: #3D3D3D;
+  font-size: f.rem(16);
+  line-height: f.rem(28);
+  font-family:  "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
+a {
+  text-decoration: none;
+  img {
+    transition: all 0.3s;
+  }
+  &:hover {
+    text-decoration: underline;
+    img {
+      opacity: 0.6;
+    }
+  }
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}

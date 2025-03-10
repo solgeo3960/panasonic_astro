@@ -1,0 +1,75 @@
+.kv {
+  padding: 0;
+}
+
+.whats-new {
+  padding: 0 0 80px 0;
+}
+
+div.content h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+div.content .white_box {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+  background: #fff;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+}
+@media screen and (max-width: 767px) {
+  div.content .white_box {
+    padding: 16px;
+  }
+}
+div.content .white_box .text_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+@media screen and (max-width: 767px) {
+  div.content .white_box .text_row {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+@media screen and (max-width: 767px) {
+  div.content .white_box .text_row .text_head {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-top: 3px;
+  }
+}
+div.content .white_box .text_row .text_head h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+section.logo_kind .content p a {
+  color: #0041c0;
+  text-decoration: underline;
+}
+
+span.red {
+  color: #F00;
+  font-weight: 300;
+}/*# sourceMappingURL=top.css.map */

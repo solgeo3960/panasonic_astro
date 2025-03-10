@@ -1,0 +1,545 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import KvSlider from "../components/KvSlider.astro";
+import WhatsNew from "../components/WhatsNew.astro";
+import TwoColumnLayout from "../components/TwoColumnLayout.astro";
+import TwoColumnLayoutImage from "../components/TwoColumnLayoutImage.astro";
+import DownloadIcon from "../components/DownloadIcon.astro";
+import Footer from "../components/Footer.astro";
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout title="ブランド表示ガイドライン" bodyId="home">
+  <Header />
+  <section class="kv">
+    <KvSlider />
+  </section>
+  <section class="whats-new">
+    <WhatsNew />
+  </section>
+  <section class="bg-blue">
+    <div class="container">
+      <TwoColumnLayout
+        title="ブランドロゴ表示の考え方"
+        linkUrl="/guidelines/gl_ab_inportance.html"
+        linkText="ブランドの大切さ"
+      >
+        <div class="content">
+          <p>
+            Panasonicブランドは、社員全員の様々な活動によってお客様に伝わり、お客様の心の中に作られていく絆であり、長い年月と多大な努力によって築き上げられた、かけがいのない重要資産です。
+          </p>
+          <p>
+            皆様がブランド扱う際、ルールに沿った表示をすることが、Panasonicの信頼とブランド価値を守る重要な要素となります。
+          </p>
+        </div>
+      </TwoColumnLayout>
+
+      <TwoColumnLayout
+        title="表示の基本原則"
+        linkUrl="/guidelines/gl_bp_concept_disp.html"
+        linkText="ブランド表示の基本原則"
+      >
+        <div class="content">
+          <h3>独自性・適法性・視認性を重視して定められています</h3>
+          <div class="white_box">
+            <div class="text_row">
+              <div class="text_head">
+                <h4>独自性:</h4>
+              </div>
+              <div class="text_body">
+                <p>
+                  常に独立した表示であること、常に同じ表示が再現されること。
+                </p>
+              </div>
+            </div>
+            <div class="text_row">
+              <div class="text_head">
+                <h4>適法性:</h4>
+              </div>
+              <div class="text_body">
+                <p>
+                  自らの権利を確保、正しく主張し、他社の権利を侵害せず、尊重すること
+                </p>
+              </div>
+            </div>
+            <div class="text_row">
+              <div class="text_head">
+                <h4>視認性:</h4>
+              </div>
+              <div class="text_body">
+                <p>
+                  大きさや配色で、判別できない、明瞭さに欠ける等にならないよう配慮すること
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </TwoColumnLayout>
+    </div>
+  </section>
+  <section class="logo_kind">
+    <div class="container">
+      <TwoColumnLayout
+        title="使用するブランドロゴの種類"
+        linkUrl="/guidelines/gl_be_pl_plogo.html"
+        linkText="ブランド表示ガイドライン・ロゴ"
+      >
+        <div class="content">
+          <div class="flexbox">
+            <div class="flexbox_item">
+              <img
+                src="/src/assets_2025/images/top/logo.png"
+                alt="パナソニックロゴ"
+              />
+            </div>
+            <div class="flexbox_item">
+              <img
+                src="/src/assets_2025/images/top/logo.png"
+                alt="パナソニックロゴ"
+              />
+            </div>
+            <div class="flexbox_item">
+              <img
+                src="/src/assets_2025/images/top/logo.png"
+                alt="パナソニックロゴ"
+              />
+            </div>
+          </div>
+          <p>
+            通常は<a
+              href="http://panasonic.localhost:8080/guidelines/gl_be_pl_standardlogo.html"
+              >基本形ロゴ</a
+            >（縦横比1:6.7）を使用。取説・施工説明書、包装箱と日本国外のカタログ裏面では、<a
+              href="http://panasonic.localhost:8080/guidelines/gl_be_pl_rtrademark.html"
+              >登録商標表示®付きロゴ</a
+            >を使用。幅40㎜未満での製品本体への表示や、建物屋上などの表示では、視認性を配慮した<a
+              href="http://panasonic.localhost:8080/guidelines/gl_be_pl_spe_proportion.html"
+              >特殊タイプロゴ</a
+            >（1:7）があります。
+          </p>
+          <div class="download_btns">
+            <div class="download_btn">
+              <a
+                href="http://panasonic.localhost:8080/guidelines/gl_ld_logo_download.html"
+              >
+                <div class="icon">
+                  <DownloadIcon />
+                </div>
+                <div class="text">
+                  <p>ロゴダウンロード（グループ社員）</p>
+                  <p><span>ロゴ/ダウンロード一覧にリンク</span></p>
+                </div>
+              </a>
+            </div>
+            <div class="download_btn">
+              <a
+                href="http://panasonic.localhost:8080/guidelines/gl_ld_logomanual_external.html"
+              >
+                <div class="icon">
+                  <DownloadIcon />
+                </div>
+                <div class="text">
+                  <p>ロゴダウンロード（グループ外）</p>
+                  <p><span>社外用ロゴマニュアルにリンク</span></p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </TwoColumnLayout>
+    </div>
+  </section>
+  <section class="point bg-blue">
+    <div class="container">
+      <div class="section_head">
+        <h2>表示する際に注意すべき<br class="sp" />ポイント</h2>
+      </div>
+      <TwoColumnLayoutImage
+        imageUrl="/src/assets_2025/images/top/img_point01.png"
+        alt="プロテクトエリア"
+        title="プロテクトエリア"
+      >
+        <h3 class="pc">プロテクトエリア</h3>
+        <p>
+          Panasonicブランドロゴが象徴的に独立して見えるように、視認性、独立性を高める必要があり、周囲に十分な余白の確保が必要です。他の名称、記号、図形、文章などを近接して表示することはできません。
+        </p>
+        <p>
+          表示面のレイアウトにおいて、1.0H以上の確保が困難な場合に限り、定められた特例表示が認められています。
+        </p>
+        <div class="link_list_box">
+          <ul class="link_lists">
+            <li>
+              <a
+                href="http://panasonic.localhost:8080/guidelines/gl_be_pl_clearspace.html"
+                >プロテクトエリア <i class="arrow-right"></i></a
+              >
+            </li>
+          </ul>
+        </div>
+      </TwoColumnLayoutImage>
+      <TwoColumnLayoutImage
+        imageUrl="/src/assets_2025/images/top/img_point02.png"
+        alt="ロゴ色と背景色"
+        title="ロゴ色と背景色について"
+      >
+        <h3 class="pc">ロゴ色と背景色について</h3>
+        <p>
+          <span class="red">
+            Panasonicブランドロゴが象徴的に独立して見えるように、視認性、独立性を高める必要があり、周囲に十分な余白の確保が必要です。</span
+          >
+        </p>
+        <div class="link_list_box">
+          <ul class="link_lists">
+            <li>
+              <a
+                href="http://panasonic.localhost:8080/guidelines/gl_be_pl_panablue.html"
+                >Panasonicブルー <i class="arrow-right"></i></a
+              >
+            </li>
+            <li>
+              <a
+                href="http://panasonic.localhost:8080/guidelines/gl_be_pl_colorpriority.html"
+                >配色の優先順位 <i class="arrow-right"></i></a
+              >
+            </li>
+            <li>
+              <a href="/guidelines/gl_be_pl_backcolor.html"
+                >ロゴ背景色 <i class="arrow-right"></i></a
+              >
+            </li>
+            <li>
+              <a href="/rules_approval/cr_co_app_backcolor.html"
+                >写真背景特例決裁 <i class="arrow-right"></i></a
+              >
+            </li>
+            <li>
+              <a href="/rules_approval/cr_co_spe_backcolor.html"
+                >背景色の特例 <i class="arrow-right"></i></a
+              >
+            </li>
+          </ul>
+        </div>
+      </TwoColumnLayoutImage>
+      <TwoColumnLayoutImage
+        imageUrl="/src/assets_2025/images/top/img_point03.png"
+        alt="誤った表示事例"
+        title="誤った表示事例"
+      >
+        <h3 class="pc">誤った表示事例</h3>
+        <p>
+          <span class="red">
+            Panasonicロゴを表示する際の、正しい使用例と誤った使用例を示します。</span
+          >
+        </p>
+        <div class="link_list_box">
+          <ul class="link_lists">
+            <li>
+              <a href="/guidelines/gl_be_pl_corincor.html"
+                >表示例 <i class="arrow-right"></i></a
+              >
+            </li>
+            <li>
+              <a href="/guidelines/gl_be_pl_colcombi.html"
+                >配色 <i class="arrow-right"></i></a
+              >
+            </li>
+            <li>
+              <a href="/guidelines/gl_be_pl_backphoto.html"
+                >背景写真 <i class="arrow-right"></i></a
+              >
+            </li>
+            <li>
+              <a href="/guidelines/gl_be_pl_exdispvideo.html"
+                >映像 <i class="arrow-right"></i></a
+              >
+            </li>
+            <li>
+              <a href="/guidelines/gl_be_cl_bodytext_corincor.html"
+                >文中 <i class="arrow-right"></i></a
+              >
+            </li>
+          </ul>
+        </div>
+      </TwoColumnLayoutImage>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <TwoColumnLayout title="社名ロゴ">
+        <div class="content">
+          <div class="flexbox">
+            <div class="flexbox_item">
+              <img
+                src="/src/assets_2025/images/top/img_pud01.png"
+                alt="パナソニックホールディングス株式会社"
+              />
+            </div>
+            <div class="flexbox_item">
+              <img
+                src="/src/assets_2025/images/top/img_pud02.png"
+                alt="Panasonic Holdings Corporation"
+              />
+            </div>
+          </div>
+          <p>
+            <span class="red"
+              >社名ロゴや表示例、表記に関する規定書体などの情報です。</span
+            >
+          </p>
+          <div class="link_list_box">
+            <ul class="link_lists">
+              <li>
+                <a href="/guidelines/gl_be_cl_comlogo.html"
+                  >社名ロゴ <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/guidelines/gl_ld_Affil_com_logo.html"
+                  >社名ロゴデータ <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/guidelines/gl_be_cl_group_corincor.html"
+                  >社名・企業グループ表示例（正・誤） <i class="arrow-right"
+                  ></i></a
+                >
+              </li>
+              <li>
+                <a href="/guidelines/gl_be_pf_pudfont.html"
+                  >PUDフォント <i class="arrow-right"></i></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </TwoColumnLayout>
+    </div>
+  </section>
+  <section class="bg-blue">
+    <div class="container">
+      <TwoColumnLayout
+        title="各種ダウンロード一覧"
+        linkUrl="#"
+        linkText="ロゴ／ダウンロード"
+      >
+        <div class="content">
+          <p>
+            <span class="red"
+              >手続きに必要な申請書などのデータをダウンロードできます</span
+            >
+          </p>
+        </div>
+      </TwoColumnLayout>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <TwoColumnLayout
+        title="その他の表示ルール"
+        linkUrl="/guidelines/gl_otherrules.html"
+        linkText="その他の表示ルール 一覧"
+      >
+        <div class="content">
+          <p>
+            <span class="red"
+              >Panasonicブランドの使用や表示に関して、全社ブランド戦略担当部門以外の部門やカンパニーで策定している規程・規格・マニュアルのリンク先一覧です。</span
+            >
+          </p>
+        </div>
+      </TwoColumnLayout>
+    </div>
+  </section>
+  <section class="bg-blue">
+    <div class="container">
+      <TwoColumnLayout
+        title="全社規程・決裁　手続き一覧"
+        linkUrl="#"
+        linkText="決裁・手続き 一覧"
+      >
+        <div class="content">
+          <p>
+            <span class="red"
+              >ブランド・社名関連で決裁が必要な事項について、その手続き方法を規定しています。</span
+            >
+          </p>
+
+          <div class="link_list_box">
+            <ul class="link_lists">
+              <li>
+                <a href="/rules_approval/cr_co_spe_backcolor.html"
+                  >背景色の特例 <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/rules_approval/cr_na_panasonic_brand.html"
+                  >ブランド冠称名称登録 <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/rules_approval/cr_cs_promotion.html"
+                  >宣伝販促のダブルブランド <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/rules_approval/cr_cs_good_service.html"
+                  >商品・サービスのダブルブランド <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/rules_approval/cr_sp_disp_product.html"
+                  >商品ブランド表示の特例 <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/rules_approval/cr_co_spe_brandlogo.html"
+                  >ブランドロゴ特別使用 <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/rules_approval/cr_nb_good_service.html"
+                  >ノーブランド <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/rules_approval/cr_mc_licens_merchand.html"
+                  >商品化権許諾 <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/guidelines/gl_ap_as_tvcm.html"
+                  >TVCMなどの動画CIルール特例 <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/rules_approval/cr_domain_name.html"
+                  >ドメインネーム申請 <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/rules_approval/cr_co_composite_logo.html"
+                  >コンポジットロゴ <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/rules_approval/cr_tr_app_licensing.html"
+                  >ブランドライセンス決裁 <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/rules_approval/cr_cn_rulenaming_affil.html"
+                  >社名付与 <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/rules_approval/cr_estarevision_termi.html"
+                  >ブランドの制定改廃 <i class="arrow-right"></i></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </TwoColumnLayout>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <TwoColumnLayout
+        title="FAQ集"
+        linkUrl="/faq_el/fa_index.html"
+        linkText="FAQ 一覧"
+      >
+        <div class="content">
+          <p>
+            <span class="red"
+              >ブランド相談・承認窓口に寄せられる、よくある質問を紹介しています。</span
+            >
+          </p>
+
+          <div class="link_list_box">
+            <ul class="link_lists">
+              <li>
+                <span
+                  >ブランちゃん<small>（ダブルブランド勉強中です）</small>
+                  <i class="arrow-right"></i></span
+                >
+              </li>
+              <li>
+                <a href="/faq_el/ca_index.html"
+                  >判断事例集 <i class="arrow-right"></i></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </TwoColumnLayout>
+    </div>
+  </section>
+
+  <section class="bg-blue">
+    <div class="container">
+      <TwoColumnLayout
+        title="ブランドeラーニング"
+        linkUrl="/faq_el/el_elearning.html"
+        linkText="ブランドe-ラーニング"
+      >
+        <div class="content">
+          <p>
+            <span class="red"
+              >パナソニックグループ社員のブランド意識向上を目指して、ブランドの基本的な考え方と使用ルールについて説明しています。</span
+            >
+          </p>
+
+          <div class="link_list_box">
+            <ul class="link_lists">
+              <li>
+                <a href="/faq_el/el_elearningbc.html"
+                  >基礎講座 <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/faq_el/el_elearningbr.html"
+                  >基本編 <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/faq_el/el_elearningep.html"
+                  >エキスパート編 <i class="arrow-right"></i></a
+                >
+              </li>
+              <li>
+                <a href="/faq_el/el_elearningco.html"
+                  >ダブルブランド編 <i class="arrow-right"></i></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </TwoColumnLayout>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <TwoColumnLayout
+        title="ブランド相談・承認窓口"
+        linkUrl="#"
+        linkText="ブランド相談・承認窓口"
+      >
+        <div class="content">
+          <p>
+            <span class="red"
+              >ブランド相談・承認窓口に関する情報を紹介しています。</span
+            >
+          </p>
+        </div>
+      </TwoColumnLayout>
+    </div>
+  </section>
+  <Footer />
+</Layout>
+
+<style>
+  @import "/src/assets_2025/css/top.css";
+</style>
