@@ -321,6 +321,7 @@ header {
     @include g.mqsptab() {
       &.is-active {
         transform: translateX(0);
+        z-index: 1010;
       }
       transform: translateX(-100%);
       position: fixed;

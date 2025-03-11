@@ -18,7 +18,7 @@ import TextLink from "../TextLink.astro";
                   <div class="date">
                     <p>{news.date}</p>
                   </div>
-                  <div
+                  <div 
                     class={`category ${categoryList.find((category) => category.categoryNumber === news.categoryNumber)?.className}`}
                     style={`background-color: ${categoryList.find((category) => category.categoryNumber === news.categoryNumber)?.color}`}
                   >
@@ -105,7 +105,7 @@ import TextLink from "../TextLink.astro";
               }
               .category {
                 display: flex;
-                width: 330px;
+                width: 340px;
                 padding: 0px 8px;
                 justify-content: center;
                 align-items: center;

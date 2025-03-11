@@ -4,4 +4,10 @@ header .header-bottom nav.main-nav ul.main-nav-lists > li > a.main-nav-link {
 
 .header-bottom .header-bottom-inner .container {
   max-width: none;
+}
+
+div.content .white_box .text_row .text_head {
+  width: 120px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }/*# sourceMappingURL=en.css.map */

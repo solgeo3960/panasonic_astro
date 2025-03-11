@@ -758,6 +758,7 @@ header .header-bottom {
   header .header-bottom.is-active {
     -webkit-transform: translateX(0);
             transform: translateX(0);
+    z-index: 1010;
   }
 }
 header .header-bottom.is-fixed {

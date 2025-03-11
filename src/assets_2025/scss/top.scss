@@ -32,6 +32,8 @@ div.content {
         align-items: flex-start;
       }
       .text_head {
+        
+        flex-shrink: 0;
         @include g.mq() {
           flex-shrink: 0;
           margin-top: 3px;

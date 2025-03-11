@@ -1,3 +1,4 @@
+@use "./global" as g;
 header .header-bottom nav.main-nav ul.main-nav-lists > li > a.main-nav-link{
   font-size: 16px;
 }
@@ -5,6 +6,17 @@ header .header-bottom nav.main-nav ul.main-nav-lists > li > a.main-nav-link{
   .header-bottom-inner{
     .container{
       max-width: none;
+    }
+  }
+}
+
+div.content {
+  .white_box {
+    .text_row {
+      .text_head {
+        width: 120px;
+        flex-shrink: 0;
+      }
     }
   }
 }
