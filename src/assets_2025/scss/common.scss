@@ -1263,3 +1263,18 @@ main {
 #Header {
   display: none;
 }
+
+
+// レスポンシブにさせない暫定対応
+.container{
+  width: 1110px;
+}
+
+.header {
+  min-width: 1110px;
+}
+
+footer {
+  min-width: 1110px;
+}
+

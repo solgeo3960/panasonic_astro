@@ -68,3 +68,12 @@ span.red {
   font-weight: 300;
 }
 
+#bannerArea .banner{
+  .bannerContent{
+    &:hover{
+      img{
+        opacity: 1;
+      }
+    }
+  }
+}

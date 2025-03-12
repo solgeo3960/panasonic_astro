@@ -6,6 +6,7 @@ header .header-bottom nav.main-nav ul.main-nav-lists > li > a.main-nav-link{
   .header-bottom-inner{
     .container{
       max-width: none;
+      width: 100%; //レスポンシブさせない対応
     }
   }
 }
@@ -20,3 +21,10 @@ div.content {
     }
   }
 }
+
+ //レスポンシブさせない対応
+header .header-bottom nav.main-nav ul.main-nav-lists > li > a.main-nav-link{
+  font-size: g.myClamp2(8,16);
+  white-space: nowrap;
+}
+

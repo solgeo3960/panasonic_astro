@@ -30,7 +30,7 @@ div.content .white_box {
   -ms-flex-item-align: stretch;
       align-self: stretch;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1px) {
   div.content .white_box {
     padding: 16px;
   }
@@ -44,7 +44,7 @@ div.content .white_box .text_row {
           align-items: center;
   gap: 12px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1px) {
   div.content .white_box .text_row {
     -webkit-box-align: start;
         -ms-flex-align: start;
@@ -55,7 +55,7 @@ div.content .white_box .text_row .text_head {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1px) {
   div.content .white_box .text_row .text_head {
     -ms-flex-negative: 0;
         flex-shrink: 0;
@@ -76,4 +76,8 @@ section.logo_kind .content p a {
 span.red {
   color: #F00;
   font-weight: 300;
+}
+
+#bannerArea .banner .bannerContent:hover img {
+  opacity: 1;
 }/*# sourceMappingURL=top.css.map */
